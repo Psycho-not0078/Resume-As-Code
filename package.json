@@ -1,0 +1,18 @@
+{
+  "name": "effective-winner",
+  "version": "1.0.0",
+  "description": "Lol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+	"dependencies": {
+    "@jsonresume/schema": "^1.0.0",
+    "sade": "^1.7.0",
+    "yoctocolors": "^2.0.0",
+    "resumed": "4.0.0",
+    "jsonresume-theme-even":"^0.23.0"
+	}
+}
