@@ -6,7 +6,7 @@
     "email": "snbhat0708@gmail.com",
     "phone": "+91 9319225818",
     "website": "https://thomasedison.com",
-    "summary": "Prolific inventor and businessman known for developing many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and the electric light bulb.",
+    "summary": "Dedicated Cybersecurity Engineer with 2+ years of experience safeguarding critical systems and data. Proficient in Python, Java, C++, SIEM, vulnerability scanners, penetration testing tools, GCP, and AWS. Successfully prevented multiple security breaches in the past year by implementing a robust SIEM and WAF solution and responding swiftly to incidents. Committed to staying at the forefront of cybersecurity trends and technologies, with a focus on innovation and efficiency.",
     "location": {
       "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
       "postalCode": "641030",
@@ -187,13 +187,21 @@
     {
       "name": "Gaming",
       "keywords": [
-        "Fun"
+        "PC games"
       ]
     },
     {
-      "name": "Drawing",
+      "name": "Art",
       "keywords": [
-        "Creativity"
+        "Drawing","Graphic Designing", "3d Modeling"
+      ]
+    },
+    {
+      "name": "Martial Arts",
+      "keywords": [
+        "Karate",
+        "Kobudo",
+        "Kalaripayattu"
       ]
     }
   ],
