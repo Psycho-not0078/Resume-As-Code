@@ -1,160 +1,210 @@
 {
-    "basics": {
-      "name": "Sathya Narayana Bhat",
-      "label": "Cybersecurity Engineer",
-      "picture": "https://example.com/photo.jpg",
-      "email": "snbhat0708@gmail.com",
-      "phone": "+91 9319225818",
-      "website": "https://thomasedison.com",
-      "summary": "Prolific inventor and businessman known for developing many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and the electric light bulb.",
-      "location": {
-        "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
-        "postalCode": "641030",
-        "city": "Coimbatore",
-        "countryCode": "IN",
-        "region": "Tamil Nadu"
-      },
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "sathya-narayana-bhat",
-          "url": "https://www.linkedin.com/in/sathya-narayana-bhat/"
-        },
-        {
-          "network": "Github",
-          "username": "Psycho-not0078",
-          "url": "https://github.com/Psycho-not0078"
-        }
-      ]
+  "basics": {
+    "name": "Sathya Narayana Bhat",
+    "label": "Cybersecurity Engineer",
+    "picture": "https://example.com/photo.jpg",
+    "email": "snbhat0708@gmail.com",
+    "phone": "+91 9319225818",
+    "website": "https://thomasedison.com",
+    "summary": "Prolific inventor and businessman known for developing many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and the electric light bulb.",
+    "location": {
+      "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
+      "postalCode": "641030",
+      "city": "Coimbatore",
+      "countryCode": "IN",
+      "region": "Tamil Nadu"
     },
-    "work": [
+    "profiles": [
       {
-        "company": "IDfy",
-        "position": "Infosec Engineer",
-        "website": "https://idfy.com",
-        "startDate": "2022-07-01",
-        "summary": "As a Cybersecurity Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
-        "highlights": [
-          "Established a unified security posture through a centralized multi-cloud SIEM platform, enhancing threat detection and response capabilities",
-          "Performed Multiple Vulnerablity assessmets for company assets",
-          "Developed and maintained custom security scripts and tools to automate routine tasks and improve efficiency.",
-          "Collaborated with development teams to ensure secure coding practices and adherence to security standards.",
-          "Responded to security incidents, conducted root cause analysis, and implemented corrective measures to prevent future occurrences.",
-          "Contributed to a secure and resilient organization by proactively identifying and addressing potential security risks."
-        ]
+        "network": "LinkedIn",
+        "username": "sathya-narayana-bhat",
+        "url": "https://www.linkedin.com/in/sathya-narayana-bhat/"
       },
       {
-        "company": "IDfy",
-        "position": "Infosec Engineer [Internship]",
-        "website": "https://idfy.com",
-        "startDate": "2022-01-01",
-        "endDate": "2022-06-30",
-        "summary": "Co-founded General Electric, one of the largest and most diversified industrial corporations in the world.",
-        "highlights": [
-          "Played a key role in the development of electrical power and lighting systems.",
-          "Contributed to the advancement of numerous technological innovations."
-        ]
-      },
-      {
-        "company": "NIIT University",
-        "position": "PHP Developer [Internhip]",
-        "website": "https://niituniversity.in/",
-        "startDate": "2022-01-01",
-        "endDate": "2022-06-30",
-        "summary": "Successfully created a Moodle Plugin that extracts various exam analytics.",
-        "highlights": [
-          "Demonstrated expertise in creating a tailored Moodle plugin to address specific analytics requirements.",
-          "Successfully extracted relevant data from Moodle's database and performed in-depth analysis to derive meaningful insights.",
-          "Identified trends and patterns in student behavior and performance to support targeted interventions and improve overall learning outcomes."
-        ]
-      }
-    ],
-    "education": [
-      {
-        "institution": "NIIT University",
-        "area": "B.Tech Computer Science and Engineering",
-        "studyType": "Graduated",
-        "startDate": "2018-08-01",
-        "endDate": "2022-06-18",
-        "gpa": "7.8",
-        "courses": [
-          "Electrical Engineering",
-          "Mechanical Engineering",
-          "Chemistry"
-        ]
-      }
-    ],
-    "awards": [
-      {
-        "title": "Congressional Gold Medal",
-        "date": "1928-01-01",
-        "awarder": "United States Congress",
-        "summary": "Awarded for distinguished achievements and contributions to society."
-      }
-    ],
-    "skills": [
-      {
-        "name": "Inventing",
-        "level": "Master",
-        "keywords": [
-          "Electricity",
-          "Sound Recording",
-          "Motion Pictures"
-        ]
-      },
-      {
-        "name": "Entrepreneurship",
-        "level": "Expert",
-        "keywords": [
-          "Business Development",
-          "Product Innovation",
-          "Industrial Research"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "English",
-        "fluency": "Fluent"
-      },
-      {
-        "language": "Tamil",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "Hindi",
-        "fluency": "Native speaker"
-      },
-      {
-        "language": "Japanese",
-        "fluency": "Beginner"
-      }
-    ],
-    "interests": [
-      {
-        "name": "Research and Development",
-        "keywords": [
-          "Innovations",
-          "Experimentation"
-        ]
-      },
-      {
-        "name": "Gaming",
-        "keywords": [
-          "Fun"
-        ]
-      },
-      {
-        "name": "Drawing",
-        "keywords": [
-          "Creativity"
-        ]
-      }
-    ],
-    "references": [
-      {
-        "name": "Henry Ford",
-        "reference": "Thomas Edison was a brilliant inventor and a visionary businessman. His work has had a profound impact on the modern world."
+        "network": "Github",
+        "username": "Psycho-not0078",
+        "url": "https://github.com/Psycho-not0078"
       }
     ]
-  }
+  },
+  "work": [
+    {
+      "company": "IDfy",
+      "position": "Infosec Engineer",
+      "website": "https://idfy.com",
+      "startDate": "2022-07-01",
+      "summary": "As a Cybersecurity Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
+      "highlights": [
+        "Established a unified security posture through a centralized multi-cloud SIEM platform, enhancing threat detection and response capabilities",
+        "Performed Multiple Vulnerablity assessmets for company assets",
+        "Developed and maintained custom security scripts and tools to automate routine tasks and improve efficiency.",
+        "Collaborated with development teams to ensure secure coding practices and adherence to security standards.",
+        "Responded to security incidents, conducted root cause analysis, and implemented corrective measures to prevent future occurrences.",
+        "Contributed to a secure and resilient organization by proactively identifying and addressing potential security risks."
+      ]
+    },
+    {
+      "company": "IDfy",
+      "position": "Infosec Engineer [Internship]",
+      "website": "https://idfy.com",
+      "startDate": "2022-01-01",
+      "endDate": "2022-06-30",
+      "summary": "Co-founded General Electric, one of the largest and most diversified industrial corporations in the world.",
+      "highlights": [
+        "Played a key role in the development of electrical power and lighting systems.",
+        "Contributed to the advancement of numerous technological innovations."
+      ]
+    },
+    {
+      "company": "NIIT University",
+      "position": "PHP Developer [Internhip]",
+      "website": "https://niituniversity.in/",
+      "startDate": "2022-01-01",
+      "endDate": "2022-06-30",
+      "summary": "Successfully created a Moodle Plugin that extracts various exam analytics.",
+      "highlights": [
+        "Demonstrated expertise in creating a tailored Moodle [exam portal] plugin to address specific analytics requirements.",
+        "Successfully extracted relevant data from Moodle's database and performed in-depth analysis to derive meaningful insights.",
+        "Identified trends and patterns in student behavior and performance to support targeted interventions and improve overall learning outcomes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "NIIT University",
+      "area": "B.Tech Computer Science and Engineering",
+      "studyType": "Graduated",
+      "startDate": "2018-08-01",
+      "endDate": "2022-06-18",
+      "gpa": "7.8"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Security+",
+      "date": "2021-08-24",
+      "issuer": "Comptia",
+      "url": "https://www.credly.com/badges/cd2ec8a8-639e-40d6-a99b-37c142f46263/public_url"
+    },
+    {
+      "name": "Google Cloud Cybersecurity Certificate",
+      "date": "2024-06-10",
+      "issuer": "Google Cloud Platform",
+      "url": "https://www.credly.com/badges/4a2c6c05-b6f5-4690-9462-02f1523c6932/public_url"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud Computing",
+      "level": "Master",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "Cloud SQL"
+      ]
+    },
+    {
+      "name": "DevOps and DevSecOps",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "Kubernates",
+        "CI/CD Pipelines",
+        "Packer",
+        "Terraform"
+      ]
+    },
+    {
+      "name": "VAPT",
+      "level": "Expert",
+      "keywords": [
+        "Pentesting",
+        "Code Analysis",
+        "Automation",
+        "Network VAPT"
+      ]
+    },
+    {
+      "name": "Security Requirements",
+      "level": "Expert",
+      "keywords": [
+        "SIEM",
+        "SAST/DAST Implementations",
+        "Incident Response",
+        "Alert Automation",
+        "Threat Analysis",
+        "Active Directory"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "Java",
+        "C++",
+        "MySQL",
+        "PHP",
+        "CLI Tooling"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "level": "Advanced",
+      "keywords": [
+        "Windows",
+        "Linux",
+        "MacOS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Tamil",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research and Development",
+      "keywords": [
+        "Innovations",
+        "Experimentation"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "keywords": [
+        "Fun"
+      ]
+    },
+    {
+      "name": "Drawing",
+      "keywords": [
+        "Creativity"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Henry Ford",
+      "reference": "Thomas Edison was a brilliant inventor and a visionary businessman. His work has had a profound impact on the modern world."
+    },
+    {
+      "name": "Henry Ford",
+      "reference": "Thomas Edison was a brilliant inventor and a visionary businessman. His work has had a profound impact on the modern world."
+    }
+  ]
+}
