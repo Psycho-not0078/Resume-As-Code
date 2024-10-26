@@ -49,10 +49,11 @@
       "website": "https://idfy.com",
       "startDate": "2022-01-01",
       "endDate": "2022-06-30",
-      "summary": "Co-founded General Electric, one of the largest and most diversified industrial corporations in the world.",
+      "summary": "Gain practical cybersecurity experience as an intern at IDfy, where I contributed to enhancing application security. I performed comprehensive vulnerability assessments (VAPT) on critical applications, identifying and mitigating potential risks.",
       "highlights": [
-        "Played a key role in the development of electrical power and lighting systems.",
-        "Contributed to the advancement of numerous technological innovations."
+        "Collaborated with development teams to address identified vulnerabilities.",
+        "Provided detailed vulnerability reports with remediation recommendations.",
+        "Enhanced communication and collaboration between security and development teams."
       ]
     },
     {
@@ -175,11 +176,11 @@
     },
     {
       "language": "Tamil",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
     },
     {
       "language": "Hindi",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
     },
     {
       "language": "Japanese",
@@ -215,16 +216,6 @@
         "Kobudo",
         "Kalaripayattu"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Henry Ford",
-      "reference": "Thomas Edison was a brilliant inventor and a visionary businessman. His work has had a profound impact on the modern world."
-    },
-    {
-      "name": "Henry Ford",
-      "reference": "Thomas Edison was a brilliant inventor and a visionary businessman. His work has had a profound impact on the modern world."
     }
   ]
 }
