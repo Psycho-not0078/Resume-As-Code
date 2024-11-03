@@ -32,13 +32,13 @@ jobs:
             cache: "npm"
 
         - name: "📦 Install dependencies"
-          run: npm install -g resumed jsonresume-theme-macchiato-plus
+          run: npm install && npm ci
         
         - name: "Run resumed validate"
-          run: resumed validate ./Resume/resume.json
+          run: npm validate
 
         - name: "Run resumed Render"
-          run: resumed render ./Resume/resume.json --theme=macchiato-plus --output=resume.html
+          run: npm render
 
         - name: "install pandoc"
           run: wget https://github.com/jgm/pandoc/releases/download/3.5/pandoc-3.5-1-amd64.deb ; sudo dpkg -i ./pandoc-3.5-1-amd64.deb

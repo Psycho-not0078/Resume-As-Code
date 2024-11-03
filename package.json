@@ -4,7 +4,8 @@
   "description": "Lol",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate": "resumed validate ./Resume/resume.json",
+    "render": "resumed render ./Resume/resume.json --theme=macchiato-plus --output=resume.html"
   },
   "author": "",
   "license": "ISC",
