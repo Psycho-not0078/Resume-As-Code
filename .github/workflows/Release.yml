@@ -9,6 +9,9 @@ jobs:
         name: Create Release
         runs-on: ubuntu-latest
         steps:
+            - uses: boonya/gh-action-name-generator@v1
+              id: generator
+            - run: echo "Generated name is ${{ steps.generator.outputs.name }}."
             - name: Checkout code
               uses: actions/checkout@v4
             
@@ -20,7 +23,7 @@ jobs:
               with:
                 repo_token: ${{ secrets.GITHUB_TOKEN }}
                 file: Sathya_Bhat_Resume_Latest.pdf
-                asset_name: ${{ github.sha }} Latest Resume
-                tag: ${{ github.sha }}
+                asset_name: ${{ steps.generator.outputs.name }} Latest Resume
+                tag: ${{ steps.generator.outputs.name }}
                 overwrite: true
                 body: "Sample Text"
