@@ -39,11 +39,11 @@ jobs:
 
         - name: "Add file to staging"
           run: |
-            PR_NUMBER="${{ github.event.pull_request.number }}"
+            COMMIT_ID="${{ github.event.push.commits[0].id }}"
             git config --local user.name "Sathya Narayana Bhat"
             git config --local user.email "snbhat0708@gmail.com"
             git add Sathya_Bhat_Resume_Latest.pdf
-            git commit -m "$PR_NUMBER_Result"
+            git commit -m "$COMMIT_ID Result"
 
         - name: Push changes # push the output file to your repo
           uses: ad-m/github-push-action@master
