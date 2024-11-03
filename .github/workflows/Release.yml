@@ -1,9 +1,7 @@
 name: Create Release
 run-name: Resume Release
-on:
-    workflow_run:
-        workflows: ['Build']
-        types: [completed]
+on: 
+    push
 jobs:
     release:
         name: Create Release
