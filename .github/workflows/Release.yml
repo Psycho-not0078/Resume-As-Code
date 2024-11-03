@@ -20,7 +20,7 @@ jobs:
               with:
                 repo_token: ${{ secrets.GITHUB_TOKEN }}
                 file: Sathya_Bhat_Resume_Latest.pdf
-                asset_name: Latest Resume
-                tag: ${{ github.ref }}
+                asset_name: ${{ github.sha }} Latest Resume
+                tag: ${{ github.sha }}
                 overwrite: true
                 body: "Sample Text"
