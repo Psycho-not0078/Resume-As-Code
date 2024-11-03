@@ -1,11 +1,32 @@
-const fs = require('fs');
 const puppeteer = require('puppeteer');
+const fs = require('fs');
 
-const html = fs.readFileSync(htmlFilePath, 'utf8');
+(async () => {
 
-const browser = await puppeteer.launch()
-const page = await browser.newPage()
+  // Get type of source from process.argv, default to url
+    var htmlFilePath = "Sathya_Bhat_Resume_Latest.html"
 
-await page.setContent(html, { waitUntil: 'networkidle0' })
-await page.pdf({ path: 'resume.pdf', format: 'a4', printBackground: true })
-await browser.close()
+  // Create a browser instance
+    const browser = await puppeteer.launch();
+
+  // Create a new page
+    const page = await browser.newPage();
+
+    const html = fs.readFileSync(htmlFilePath, 'utf8');
+    await page.setContent(html, { waitUntil: 'domcontentloaded' });
+
+  // To reflect CSS used for screens instead of print
+    await page.emulateMediaType('screen');
+
+  // Downlaod the PDF
+    const pdf = await page.pdf({
+        path: `../Result/Sathya_Bhat_Resume_Latest.pdf`,
+        printBackground: true,
+        format: 'A4',
+    });
+
+  // Close the browser instance
+    await browser.close();
+  
+})();
+
