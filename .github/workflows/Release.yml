@@ -1,19 +1,14 @@
 name: Create Release
 run-name: Resume Release
-on: 
-    push:
-        branches:
-          - '(?i)^.*(\bresult\b).*'
+on:
+    workflow_run:
+        workflows: ['Validate']
+        types: [completed]
 jobs:
     release:
         name: Create Release
         runs-on: ubuntu-latest
         steps:
-            - id: foo
-              uses: uptownaravi/verify-commit-message-action@v2
-              with:
-                regex: (?i)^.*(\bresult\b).*
-                
             - name: Checkout code
               uses: actions/checkout@v4
             
@@ -24,8 +19,8 @@ jobs:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                 repo_token: ${{ secrets.GITHUB_TOKEN }}
-                file: ./Results/Sathya_Bhat_Resume_Latest.pdf
-                asset_name: mything
+                file: Sathya_Bhat_Resume_Latest.pdf
+                asset_name: Latest Resume
                 tag: ${{ github.ref }}
                 overwrite: true
-                body: "This is my release text"
+                body: "Sample Text"
