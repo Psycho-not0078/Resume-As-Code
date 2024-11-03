@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "validate": "resumed validate ./Resume/resume.json",
-    "render": "resumed render ./Resume/resume.json --theme=jsonresume-theme-macchiato-plus --output=Sathya_Bhat_Resume_Latest.html"
+    "render": "resumed render ./Resume/resume.json --theme=jsonresume-theme-macchiato-plus --output=Sathya_Bhat_Resume_Latest.html",
+    "convert": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "yoctocolors": "^2.0.0",
     "resumed": "4.0.0",
     "jsonresume-theme-even":"^0.23.0",
-    "jsonresume-theme-macchiato-plus":"^1.0.3"
+    "jsonresume-theme-macchiato-plus":"^1.0.3",
+    "puppeteer": "^23.6.1"
 	}
 }
