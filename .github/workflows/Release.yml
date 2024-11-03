@@ -8,17 +8,9 @@ jobs:
     release:
         name: Create Release
         runs-on: ubuntu-latest
-        steps:
-            - uses: TGPSKI/name-generator-node-action@v2
-              id: generator
-              with:
-                separator: '_'
-                length: '4'
-                style: 'upperCase'
-
-              name: test generator output
-            - run: echo "latest,${{ steps.generator.outputs.name }}"
-            
+        steps:     
+            - name: generate FOO unique variable based on timestamp
+              run: echo FOO=foobar--$(date +%s) >> $GITHUB_ENV
             - name: Checkout code
               uses: actions/checkout@v4
             
@@ -30,7 +22,7 @@ jobs:
               with:
                 repo_token: ${{ secrets.GITHUB_TOKEN }}
                 file: Sathya_Bhat_Resume_Latest.pdf
-                asset_name: ${{ steps.generator.outputs.name }} Latest Resume
-                tag: ${{ steps.generator.outputs.name }}
+                asset_name: ${{ env.FOO }} Latest Resume
+                tag: ${{ env.FOO }}
                 overwrite: true
                 body: "Sample Text"
