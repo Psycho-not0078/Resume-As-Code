@@ -37,7 +37,7 @@ jobs:
           run: wget https://github.com/jgm/pandoc/releases/download/3.5/pandoc-3.5-1-amd64.deb ; sudo dpkg -i ./pandoc-3.5-1-amd64.deb
 
         - name: "convert html to pdf"
-          run: pandoc Sathya_Bhat_Resume_Latest.html -t latex -o ./Results/Sathya_Bhat_Resume_Latest.pdf
+          run: pandoc Sathya_Bhat_Resume_Latest.html -t html -o ./Results/Sathya_Bhat_Resume_Latest.pdf
 
         - name: "add file to staging"
           run: |
