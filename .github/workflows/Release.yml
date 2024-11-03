@@ -13,7 +13,7 @@ jobs:
               id: generator
               with:
                 separator: '_'
-                length: '6'
+                length: '4'
                 style: 'upperCase'
 
               name: test generator output
