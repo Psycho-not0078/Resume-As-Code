@@ -10,7 +10,8 @@ jobs:
         if: "! contains(toJSON(github.event.commits.*.message), '[skip-ci]')"
         runs-on: ubuntu-latest
         timeout-minutes: 3
-
+        permissions:
+          contents: write
         strategy:
             matrix:
                 node-version: [20.x]
