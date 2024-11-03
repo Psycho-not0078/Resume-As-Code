@@ -5,31 +5,14 @@ on:
         branches:
           - 'main'
 jobs:
-    block-wip-in-commit:
-        runs-on: [ubuntu-latest]
-        steps:
-          - name: 'Ensure no WIP in commit messages'
-            run: |
-              PR_NUMBER="${{ github.event.pull_request.number }}"
-              PR_REPO="${{ github.event.pull_request.head.repo.full_name }}"
-              TOKEN="${{ secrets.GITHUB_TOKEN }}"
-              commits_url="https://api.github.com/repos/$PR_REPO/pulls/$PR_NUMBER/commits"
-              commit_messages=$(curl -s -H "Authorization: token $TOKEN" $commits_url | jq '.[].commit.message')
-              for message in $commit_messages; do
-                if [[ $message == *"Result"* ]]; then
-                  echo "Found Result in commit message: $message"
-                  exit 1
-                fi
-              done
     Simple-hi-hello:
-        needs: block-wip-in-commit
         runs-on: ubuntu-latest
         steps:
         - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
         - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
 
     build:
-        needs: block-wip-in-commit
+        needs: Simple-hi-hello
         name: Code standards & build
         runs-on: ubuntu-latest
         timeout-minutes: 3
@@ -39,6 +22,11 @@ jobs:
                 node-version: [18.x]
 
         steps:
+        - id: foo
+          uses: uptownaravi/verify-commit-message-action@v2
+          with:
+            regex: ^.*(resume updated).*
+
         - name: "☁️ Checkout repository"
           uses: actions/checkout@v4
 
