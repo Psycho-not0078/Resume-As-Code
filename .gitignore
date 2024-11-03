@@ -2,4 +2,3 @@ test/*
 node_modules/*
 node_modules/
 Result
-package-lock.json
