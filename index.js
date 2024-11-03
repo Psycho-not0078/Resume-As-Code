@@ -1,5 +1,5 @@
 const fs = require('fs');
-import puppeteer from 'puppeteer'
+const puppeteer = require('puppeteer');
 
 const html = fs.readFileSync(htmlFilePath, 'utf8');
 
