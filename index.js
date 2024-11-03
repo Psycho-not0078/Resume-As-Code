@@ -1,14 +1,11 @@
-const fs = require('fs');
-const puppeteer = require('puppeteer');
+import { promises as fs } from 'fs'
+import puppeteer from 'puppeteer'
 
-const browser = puppeteer.launch();
-const page = browser.newPage();
+const html = fs.readFileSync(htmlFilePath, 'utf8');
 
+const browser = await puppeteer.launch()
+const page = await browser.newPage()
 
-  // Assuming the HTML file is in the same directory as this script
-const htmlFilePath = './Resume/resume.json';
-const htmlContent = fs.readFileSync(htmlFilePath, 'utf8');
-page.setContent(htmlContent, { waitUntil: 'networkidle0' });
-
-page.pdf({ path: '../Result/Sathya_Bhat_Resume_Latest.pdf', format: 'a4', printBackground: true });
-browser.close();
+await page.setContent(html, { waitUntil: 'networkidle0' })
+await page.pdf({ path: 'resume.pdf', format: 'a4', printBackground: true })
+await browser.close()
