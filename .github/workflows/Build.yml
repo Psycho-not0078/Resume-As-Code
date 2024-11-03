@@ -1,0 +1,78 @@
+name: Build
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: 
+    push:
+        branches:
+          - 'main'
+jobs:
+    block-wip-in-commit:
+        runs-on: [ubuntu-latest]
+        steps:
+          - name: 'Ensure no WIP in commit messages'
+            run: |
+              PR_NUMBER="${{ github.event.pull_request.number }}"
+              PR_REPO="${{ github.event.pull_request.head.repo.full_name }}"
+              TOKEN="${{ secrets.GITHUB_TOKEN }}"
+              commits_url="https://api.github.com/repos/$PR_REPO/pulls/$PR_NUMBER/commits"
+              commit_messages=$(curl -s -H "Authorization: token $TOKEN" $commits_url | jq '.[].commit.message')
+              for message in $commit_messages; do
+                if [[ $message == *"Result"* ]]; then
+                  echo "Found Result in commit message: $message"
+                  exit 1
+                fi
+              done
+    Simple-hi-hello:
+        needs: block-wip-in-commit
+        runs-on: ubuntu-latest
+        steps:
+        - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+        - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+
+    build:
+        needs: block-wip-in-commit
+        name: Code standards & build
+        runs-on: ubuntu-latest
+        timeout-minutes: 3
+
+        strategy:
+            matrix:
+                node-version: [18.x]
+
+        steps:
+        - name: "☁️ Checkout repository"
+          uses: actions/checkout@v4
+
+        - name: "🔧 Setup Node.js ${{ matrix.node-version }}"
+          uses: actions/setup-node@v4
+          with:
+            node-version: ${{ matrix.node-version }}
+            cache: "npm"
+
+        - name: "📦 Install dependencies"
+          run: npm ci
+        
+        - name: "Run resumed validate"
+          run: resumed validate ./Resume/resume.json
+
+        - name: "Run resumed Render"
+          run: resumed render ./Resume/resume.json --theme=macchiato-plus --output=resume.html
+
+        - name: "install pandoc"
+          run: wget https://github.com/jgm/pandoc/releases/download/3.5/pandoc-3.5-1-amd64.deb ; sudo dpkg -i ./pandoc-3.5-1-amd64.deb
+
+        - name: "convert html to pdf"
+          run: pandoc resume.html -t latex -o ./Results/Sathya_Bhat_Resume_Latest.pdf
+
+        - name: "add file to staging"
+          run: |
+            PR_NUMBER="${{ github.event.pull_request.number }}"
+            git config --local user.name "Sathya Narayana Bhat"
+            git config --local user.email "snbhat0708@gmail.com"
+            git add Sathya_Bhat_Resume_Latest.pdf
+            git commit -m "$PR_NUMBER Result"
+
+        - name: Push changes # push the output file to your repo
+          uses: ad-m/github-push-action@master
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            force: true

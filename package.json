@@ -13,6 +13,7 @@
     "sade": "^1.7.0",
     "yoctocolors": "^2.0.0",
     "resumed": "4.0.0",
-    "jsonresume-theme-even":"^0.23.0"
+    "jsonresume-theme-even":"^0.23.0",
+    "jsonresume-theme-macchiato-plus":"^1.0.3"
 	}
 }

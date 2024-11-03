@@ -1,0 +1,42 @@
+name: Create Release
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: 
+    push:
+        branches:
+          - 'main'
+jobs:
+    Allow-only-Results-in-commit:
+        runs-on: [ubuntu-latest]
+        steps:
+          - name: 'Ensure no WIP in commit messages'
+            run: |
+              PR_NUMBER="${{ github.event.pull_request.number }}"
+              PR_REPO="${{ github.event.pull_request.head.repo.full_name }}"
+              TOKEN="${{ secrets.GITHUB_TOKEN }}"
+              commits_url="https://api.github.com/repos/$PR_REPO/pulls/$PR_NUMBER/commits"
+              commit_messages=$(curl -s -H "Authorization: token $TOKEN" $commits_url | jq '.[].commit.message')
+              for message in $commit_messages; do
+                if [[ $message != *"Result"* ]]; then
+                  echo "Found Result in commit message: $message"
+                  exit 1
+                fi
+              done
+    release:
+        name: Create Release
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+            
+            - name: Create Release
+              id: create_release
+              uses: svenstaro/upload-release-action@v2
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                repo_token: ${{ secrets.GITHUB_TOKEN }}
+                file: ./Results/Sathya_Bhat_Resume_Latest.pdf
+                asset_name: mything
+                tag: ${{ github.ref }}
+                overwrite: true
+                body: "This is my release text"

@@ -2,10 +2,8 @@
   "basics": {
     "name": "Sathya Narayana Bhat",
     "label": "Cybersecurity Engineer",
-    "picture": "https://example.com/photo.jpg",
     "email": "snbhat0708@gmail.com",
     "phone": "+91 9319225818",
-    "website": "https://thomasedison.com",
     "summary": "Dedicated Cybersecurity Engineer with 2+ years of experience safeguarding critical systems and data. Proficient in Python, Java, C++, SIEM, vulnerability scanners, penetration testing tools, GCP, and AWS. Successfully prevented multiple security breaches in the past year by implementing a robust SIEM and WAF solution and responding swiftly to incidents. Committed to staying at the forefront of cybersecurity trends and technologies, with a focus on innovation and efficiency.",
     "location": {
       "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
@@ -49,18 +47,19 @@
       "website": "https://idfy.com",
       "startDate": "2022-01-01",
       "endDate": "2022-06-30",
-      "summary": "Co-founded General Electric, one of the largest and most diversified industrial corporations in the world.",
+      "summary": "Gain practical cybersecurity experience as an intern at IDfy, where I contributed to enhancing application security. I performed comprehensive vulnerability assessments (VAPT) on critical applications, identifying and mitigating potential risks.",
       "highlights": [
-        "Played a key role in the development of electrical power and lighting systems.",
-        "Contributed to the advancement of numerous technological innovations."
+        "Collaborated with development teams to address identified vulnerabilities.",
+        "Provided detailed vulnerability reports with remediation recommendations.",
+        "Enhanced communication and collaboration between security and development teams."
       ]
     },
     {
       "company": "NIIT University",
       "position": "PHP Developer [Internhip]",
       "website": "https://niituniversity.in/",
-      "startDate": "2022-01-01",
-      "endDate": "2022-06-30",
+      "startDate": "2021-06-01",
+      "endDate": "2021-08-01",
       "summary": "Successfully created a Moodle Plugin that extracts various exam analytics.",
       "highlights": [
         "Demonstrated expertise in creating a tailored Moodle [exam portal] plugin to address specific analytics requirements.",
@@ -77,6 +76,24 @@
       "startDate": "2018-08-01",
       "endDate": "2022-06-18",
       "gpa": "7.8"
+    },
+    {
+      "institution": "Kikani Vidhya Mandir [Coimbatore]",
+      "studyType": "12th (CBSE)",
+      "startDate": "2017-04-01",
+      "endDate": "2018-04-18"
+    },
+    {
+      "institution": "Kikani Vidhya Mandir [Coimbatore]",
+      "studyType": "10th (CBSE)",
+      "startDate": "2015-04-01",
+      "endDate": "2016-04-18"
+    },
+    {
+      "institution": "Abu Dhabi Indian School [Abu Dhabi]",
+      "studyType": "Primary and Middle School Education CBSE",
+      "startDate": "2006-08-01",
+      "endDate": "2014-06-18"
     }
   ],
   "certificates": [
@@ -175,11 +192,11 @@
     },
     {
       "language": "Tamil",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
     },
     {
       "language": "Hindi",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
     },
     {
       "language": "Japanese",
@@ -215,16 +232,6 @@
         "Kobudo",
         "Kalaripayattu"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Henry Ford",
-      "reference": "Thomas Edison was a brilliant inventor and a visionary businessman. His work has had a profound impact on the modern world."
-    },
-    {
-      "name": "Henry Ford",
-      "reference": "Thomas Edison was a brilliant inventor and a visionary businessman. His work has had a profound impact on the modern world."
     }
   ]
 }
