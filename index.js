@@ -1,4 +1,4 @@
-import { promises as fs } from 'fs'
+const fs = require('fs');
 import puppeteer from 'puppeteer'
 
 const html = fs.readFileSync(htmlFilePath, 'utf8');
