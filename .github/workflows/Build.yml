@@ -40,7 +40,7 @@ jobs:
 
         - name: "Add file to staging"
           run: |
-            COMMIT_ID="${{ github.event.push.commits[0].id }}"
+            COMMIT_ID="${{ github.head_ref }}.${{ github.sha }}"
             git config --local user.name "Sathya Narayana Bhat"
             git config --local user.email "snbhat0708@gmail.com"
             git add Sathya_Bhat_Resume_Latest.pdf

@@ -1,7 +1,9 @@
 name: Create Release
 run-name: Resume Release
 on: 
-    push
+    push:
+        branches:
+          - '(?i)^.*(\bresult\b).*'
 jobs:
     release:
         name: Create Release
