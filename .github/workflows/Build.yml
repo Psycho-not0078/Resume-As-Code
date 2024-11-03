@@ -19,13 +19,13 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
 
         steps:
         - id: foo
           uses: uptownaravi/verify-commit-message-action@v2
           with:
-            regex: ^.*(resume updated).*
+            regex: ^.*(run_ci).*
 
         - name: "☁️ Checkout repository"
           uses: actions/checkout@v4
