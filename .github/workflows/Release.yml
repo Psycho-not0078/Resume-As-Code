@@ -1,9 +1,9 @@
 name: Create Release
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: 
-    push:
-        branches:
-          - 'main'
+run-name: Resume Release
+on:
+    workflow_run:
+        workflows: ['Build']
+        types: [completed]
 jobs:
     release:
         name: Create Release
