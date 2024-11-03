@@ -1,8 +1,8 @@
 const fs = require('fs');
 const puppeteer = require('puppeteer');
 
-const browser = await puppeteer.launch();
-const page = await browser.newPage();
+const browser = puppeteer.launch();
+const page = browser.newPage();
 
 
   // Assuming the HTML file is in the same directory as this script
