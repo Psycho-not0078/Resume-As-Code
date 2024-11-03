@@ -35,7 +35,7 @@ jobs:
           run: npm run render
 
         - name: "Convert html to pdf"
-          run: npm run convert
+          run: touch ./Result/Sathya_Bhat_Resume_Latest.pdf; npm run convert
 
         - name: "Add file to staging"
           run: |
