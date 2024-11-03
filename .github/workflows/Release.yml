@@ -2,7 +2,7 @@ name: Create Release
 run-name: Resume Release
 on:
     workflow_run:
-        workflows: ['Validate']
+        workflows: ['Build']
         types: [completed]
 jobs:
     release:
