@@ -11,6 +11,7 @@ jobs:
         steps:     
             - name: generate FOO unique variable based on timestamp
               run: echo FOO=foobar--$(date +%s) >> $GITHUB_ENV
+              
             - name: Checkout code
               uses: actions/checkout@v4
             
