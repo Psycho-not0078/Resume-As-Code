@@ -20,7 +20,7 @@ const fs = require('fs');
 
   // Downlaod the PDF
     const pdf = await page.pdf({
-        path: `../Result/Sathya_Bhat_Resume_Latest.pdf`,
+        path: `./Result/Sathya_Bhat_Resume_Latest.pdf`,
         printBackground: true,
         format: 'A4',
     });
