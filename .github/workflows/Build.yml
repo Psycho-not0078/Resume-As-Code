@@ -1,18 +1,11 @@
 name: Build
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+run-name: 🚀 Render resumed
 on: 
     push:
         branches:
           - 'main'
 jobs:
-    Simple-hi-hello:
-        runs-on: ubuntu-latest
-        steps:
-        - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-        - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-
     build:
-        needs: Simple-hi-hello
         name: Code standards & build
         runs-on: ubuntu-latest
         timeout-minutes: 3
@@ -35,10 +28,10 @@ jobs:
           run: npm install && npm ci
         
         - name: "Run resumed validate"
-          run: npm validate
+          run: npm run validate
 
         - name: "Run resumed Render"
-          run: npm render
+          run: npm run render
 
         - name: "install pandoc"
           run: wget https://github.com/jgm/pandoc/releases/download/3.5/pandoc-3.5-1-amd64.deb ; sudo dpkg -i ./pandoc-3.5-1-amd64.deb
