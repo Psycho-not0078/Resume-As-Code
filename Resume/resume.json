@@ -56,7 +56,7 @@
     },
     {
       "company": "NIIT University",
-      "position": "PHP Developer [Internhip]",
+      "position": "PHP Developer [Internship]",
       "website": "https://niituniversity.in/",
       "startDate": "2021-06-01",
       "endDate": "2021-08-01",
@@ -70,7 +70,7 @@
   ],
   "education": [
     {
-      "institution": "NIIT University",
+      "institution": "NIIT University [Neemrana, Rajastan]",
       "area": "B.Tech Computer Science and Engineering",
       "studyType": "Graduated",
       "startDate": "2018-08-01",
@@ -78,19 +78,19 @@
       "gpa": "7.8"
     },
     {
-      "institution": "Kikani Vidhya Mandir [Coimbatore]",
+      "institution": "Kikani Vidhya Mandir [Coimbatore, Tamil Nadu]",
       "studyType": "12th (CBSE)",
       "startDate": "2017-04-01",
       "endDate": "2018-04-18"
     },
     {
-      "institution": "Kikani Vidhya Mandir [Coimbatore]",
+      "institution": "Kikani Vidhya Mandir [Coimbatore, Tamil Nadu]",
       "studyType": "10th (CBSE)",
       "startDate": "2015-04-01",
       "endDate": "2016-04-18"
     },
     {
-      "institution": "Abu Dhabi Indian School [Abu Dhabi]",
+      "institution": "Abu Dhabi Indian School [Abu Dhabi, UAE]",
       "studyType": "Primary and Middle School Education CBSE",
       "startDate": "2006-08-01",
       "endDate": "2014-06-18"
@@ -128,7 +128,9 @@
         "Kubernates",
         "CI/CD Pipelines",
         "Packer",
-        "Terraform"
+        "Terraform",
+        "Github Actions/Workflows",
+        "Gitlab CI/CD Pipelines"
       ]
     },
     {
