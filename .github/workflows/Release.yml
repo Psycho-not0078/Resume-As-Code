@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:     
             - name: generate FOO unique variable based on timestamp
-              run: echo FOO=foobar--$(date +%s) >> $GITHUB_ENV
+              run: echo FOO=$(date +%s) >> $GITHUB_ENV
               
             - name: Checkout code
               uses: actions/checkout@v4
