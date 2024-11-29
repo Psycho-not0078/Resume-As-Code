@@ -7,7 +7,6 @@ on:
 jobs:
     build:
         name: Code standards & build
-        if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
         runs-on: ubuntu-latest
         timeout-minutes: 3
         permissions:
@@ -38,16 +37,25 @@ jobs:
         - name: "Convert html to pdf"
           run: npm run convert
 
-        - name: "Add file to staging"
-          run: |
-            COMMIT_ID="${{ github.sha }}"
-            git config --local user.name "Sathya Narayana Bhat"
-            git config --local user.email "snbhat0708@gmail.com"
-            git add Sathya_Bhat_Resume_Latest.pdf
-            git commit -m "$COMMIT_ID Result"
-
-        - name: Push changes # push the output file to your repo
-          uses: ad-m/github-push-action@master
-          with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            force: true
+    release:
+        name: Create Release
+        runs-on: ubuntu-latest
+        steps:     
+            - name: generate FOO unique variable based on timestamp
+              run: echo FOO=$(date +%s) >> $GITHUB_ENV
+              
+            - name: Checkout code
+              uses: actions/checkout@v4
+            
+            - name: Create Release
+              id: create_release
+              uses: svenstaro/upload-release-action@v2
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                repo_token: ${{ secrets.GITHUB_TOKEN }}
+                file: Sathya_Bhat_Resume_Latest.pdf
+                asset_name: ${{ env.FOO }}_Sathya_Bhat_Resume_Latest.pdf
+                tag: ${{ env.FOO }}
+                overwrite: true
+                body: "(github.event.commits.*.message)"
