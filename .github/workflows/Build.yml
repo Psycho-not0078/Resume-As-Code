@@ -58,4 +58,4 @@ jobs:
                 asset_name: ${{ env.FOO }}_Sathya_Bhat_Resume_Latest.pdf
                 tag: ${{ env.FOO }}
                 overwrite: true
-                body: "(github.event.commits.*.message)"
+                body: ${{ github.event.head_commit.message }}
