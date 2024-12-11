@@ -3,6 +3,7 @@
     "name": "Sathya Narayana Bhat",
     "label": "Cybersecurity Engineer",
     "email": "snbhat0708@gmail.com",
+    "url":"https://blog.homeserverfail.in",
     "phone": "+91 9319225818",
     "summary": "Dedicated Cybersecurity Engineer with 2+ years of experience safeguarding critical systems and data. Proficient in Python, Java, C++, SIEM, vulnerability scanners, penetration testing tools, GCP, and AWS. Successfully prevented multiple security breaches in the past year by implementing a robust SIEM and WAF solution and responding swiftly to incidents. Committed to staying at the forefront of cybersecurity trends and technologies, with a focus on innovation and efficiency.",
     "location": {
@@ -56,7 +57,7 @@
     },
     {
       "company": "NIIT University",
-      "position": "PHP Developer [Internship]",
+      "position": "PHP Developer [Internhip]",
       "website": "https://niituniversity.in/",
       "startDate": "2021-06-01",
       "endDate": "2021-08-01",
@@ -70,7 +71,7 @@
   ],
   "education": [
     {
-      "institution": "NIIT University [Neemrana, Rajasthan]",
+      "institution": "NIIT University",
       "area": "B.Tech Computer Science and Engineering",
       "studyType": "Graduated",
       "startDate": "2018-08-01",
@@ -78,19 +79,19 @@
       "gpa": "7.8"
     },
     {
-      "institution": "Kikani Vidhya Mandir [Coimbatore, Tamil Nadu]",
+      "institution": "Kikani Vidhya Mandir [Coimbatore]",
       "studyType": "12th (CBSE)",
       "startDate": "2017-04-01",
       "endDate": "2018-04-18"
     },
     {
-      "institution": "Kikani Vidhya Mandir [Coimbatore, Tamil Nadu]",
+      "institution": "Kikani Vidhya Mandir [Coimbatore]",
       "studyType": "10th (CBSE)",
       "startDate": "2015-04-01",
       "endDate": "2016-04-18"
     },
     {
-      "institution": "Abu Dhabi Indian School [Abu Dhabi, UAE]",
+      "institution": "Abu Dhabi Indian School [Abu Dhabi]",
       "studyType": "Primary and Middle School Education CBSE",
       "startDate": "2006-08-01",
       "endDate": "2014-06-18"
@@ -128,9 +129,7 @@
         "Kubernates",
         "CI/CD Pipelines",
         "Packer",
-        "Terraform",
-        "Github Actions/Workflows",
-        "Gitlab CI/CD Pipelines"
+        "Terraform"
       ]
     },
     {
@@ -144,7 +143,7 @@
       ]
     },
     {
-      "name": "Security Requirements",
+      "name": "Cybersecurity Concepts",
       "level": "Expert",
       "keywords": [
         "SIEM",
@@ -172,7 +171,7 @@
       "level": "Advanced",
       "keywords": [
         "Windows",
-        "Linux",
+        "Linux (Debian, Fedora, etc.)",
         "MacOS"
       ]
     },
