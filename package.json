@@ -6,7 +6,7 @@
   "scripts": {
     "set_theme": "npm install -i $THEME",
     "validate": "resumed validate ./Resume/resume.json",
-    "render": "resumed render ./Resume/resume.json --theme=$THEME --outputnpm=Sathya_Bhat_Resume_Latest.html",
+    "render": "resumed render ./Resume/resume.json --theme=$THEME --output=Sathya_Bhat_Resume_Latest.html",
     "convert": "node index.js"
   },
   "author": "",
