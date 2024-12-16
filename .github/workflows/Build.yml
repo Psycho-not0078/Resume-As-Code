@@ -37,24 +37,19 @@ jobs:
 
         - name: "Convert html to pdf"
           run: npm run convert
-
-    release:
-        name: Create Release
-        runs-on: ubuntu-latest
-        needs: build
-        steps:     
-            - name: generate FOO unique variable based on timestamp
-              run: echo FOO=$(date +%s) >> $GITHUB_ENV
-            
-            - name: Create Release
-              id: create_release
-              uses: svenstaro/upload-release-action@v2
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              with:
-                repo_token: ${{ secrets.GITHUB_TOKEN }}
-                file: Sathya_Bhat_Resume_Latest.pdf
-                asset_name: ${{ env.FOO }}_Sathya_Bhat_Resume_Latest.pdf
-                tag: ${{ env.FOO }}
-                overwrite: true
-                body: ${{ github.event.head_commit.message }}
+          
+        - name: generate FOO unique variable based on timestamp
+          run: echo FOO=$(date +%s) >> $GITHUB_ENV
+        
+        - name: Create Release
+          id: create_release
+          uses: svenstaro/upload-release-action@v2
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            repo_token: ${{ secrets.GITHUB_TOKEN }}
+            file: Sathya_Bhat_Resume_Latest.pdf
+            asset_name: ${{ env.FOO }}_Sathya_Bhat_Resume_Latest.pdf
+            tag: ${{ env.FOO }}
+            overwrite: true
+            body: ${{ github.event.head_commit.message }}
