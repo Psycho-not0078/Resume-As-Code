@@ -4,8 +4,9 @@
   "description": "Lol",
   "main": "index.js",
   "scripts": {
+    "set_theme":"npm install -g $THEME;FINAL_THEME=$THEME@latest",
     "validate": "resumed validate ./Resume/resume.json",
-    "render": "resumed render ./Resume/resume.json --theme=jsonresume-theme-onepage-plus --output=Sathya_Bhat_Resume_Latest.html",
+    "render": "resumed render ./Resume/resume.json --theme=$FINAL_THEME --output=Sathya_Bhat_Resume_Latest.html",
     "convert": "node index.js"
   },
   "author": "",
