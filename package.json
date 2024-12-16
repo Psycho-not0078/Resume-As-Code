@@ -4,19 +4,19 @@
   "description": "Lol",
   "main": "index.js",
   "scripts": {
-    "set_theme":"npm install -g $THEME ;set FINAL_THEME=$THEME",
+    "set_theme": "npm install -i $THEME",
     "validate": "resumed validate ./Resume/resume.json",
-    "render": "resumed render ./Resume/resume.json --theme=$FINAL_THEME --output=Sathya_Bhat_Resume_Latest.html",
+    "render": "resumed render ./Resume/resume.json --theme=$THEME --outputnpm=Sathya_Bhat_Resume_Latest.html",
     "convert": "node index.js"
   },
   "author": "",
   "license": "ISC",
-	"dependencies": {
+  "dependencies": {
     "@jsonresume/schema": "^1.0.0",
-    "sade": "^1.7.0",
-    "yoctocolors": "^2.0.0",
+    "jsonresume-theme-straightforward": "^0.2.0",
+    "puppeteer": "^23.6.1",
     "resumed": "4.0.0",
-    "jsonresume-theme-onepage-plus":"^1.0.1", 
-    "puppeteer": "^23.6.1"
-	}
+    "sade": "^1.7.0",
+    "yoctocolors": "^2.0.0"
+  }
 }

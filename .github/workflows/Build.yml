@@ -31,13 +31,13 @@ jobs:
           run: npm install && npm ci
 
         - name: "Set Theme for resume"
-          run: "npm run set_theme --THEME jsonresume-theme-straightforward"
+          run: THEME=jsonresume-theme-straightforward npm run set_theme
 
         - name: "Run resumed validate"
           run: npm run validate
 
         - name: "Run resumed Render"
-          run: npm run render
+          run: THEME=jsonresume-theme-straightforward npm run render
 
         - name: "Convert html to pdf"
           run: npm run convert
