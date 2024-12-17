@@ -29,7 +29,7 @@ const docHeight = () => {
     const pdf = await page.pdf({
         path: `Sathya_Bhat_Resume_Latest.pdf`,
         printBackground: true,
-        format: 'A4',
+        // format: 'A4',
         height: `${height}px`
     });
 
