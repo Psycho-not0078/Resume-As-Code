@@ -4,6 +4,8 @@ on:
     push:
         branches:
           - 'main'
+env:
+  FINAL_THEME: jsonresume-theme-straightforward
 jobs:
     build:
         name: Code standards & build
@@ -31,13 +33,13 @@ jobs:
           run: npm install && npm ci
 
         - name: "Set Theme for resume"
-          run: THEME=jsonresume-theme-straightforward npm run set_theme
+          run: THEME=$FINAL_THEME npm run set_theme
 
         - name: "Run resumed validate"
           run: npm run validate
 
         - name: "Run resumed Render"
-          run: THEME=jsonresume-theme-straightforward npm run render
+          run: THEME=$FINAL_THEME npm run render
 
         - name: "Convert html to pdf"
           run: npm run convert
