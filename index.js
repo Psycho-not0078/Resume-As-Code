@@ -1,6 +1,12 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
+const docHeight = () => {
+  const body = document.body
+  const html = document.documentElement;
+  return Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+}
+
 (async () => {
 
   // Get type of source from process.argv, default to url
@@ -17,12 +23,14 @@ const fs = require('fs');
 
   // To reflect CSS used for screens instead of print
     await page.emulateMediaType('screen');
+    const height = await page.evaluate(docHeight);
 
   // Downlaod the PDF
     const pdf = await page.pdf({
         path: `Sathya_Bhat_Resume_Latest.pdf`,
         printBackground: true,
         format: 'A4',
+        height: `${height}px`
     });
 
   // Close the browser instance
