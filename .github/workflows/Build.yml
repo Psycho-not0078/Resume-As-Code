@@ -5,7 +5,8 @@ on:
         branches:
           - 'main'
 env:
-  THEME: "@jsonresume/jsonresume-theme-professional"
+  THEME_PKG: "@jsonresume/jsonresume-theme-professional"
+  THEME: "jsonresume-theme-professional"
 jobs:
     build:
         name: Code standards & build
