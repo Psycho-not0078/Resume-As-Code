@@ -5,7 +5,7 @@ on:
         branches:
           - 'main'
 env:
-  FINAL_THEME: jsonresume-theme-classy
+  FINAL_THEME: jsonresume-theme-even
 jobs:
     build:
         name: Code standards & build

@@ -204,6 +204,23 @@
       "fluency": "Beginner"
     }
   ],
+  "projects": [{
+    "name": "Vaultify",
+    "startDate": "2023-01-01",
+    "endDate": "2023-01-01",
+    "description": "A Vault for PII data, to ensure secure and auditable access to them",
+    "highlights": [
+      "Participated in IDfy Hackaton"
+    ],
+    "url": "https://github.com/"
+  },
+  {
+    "name": "Swift Vote",
+    "startDate": "2021-09-11",
+    "endDate": "2022-01-16",
+    "description": " blockchain-based voting system specifically designed to address the legal requirements of a democratic process.",
+    "url": "https://github.com/Psycho-not0078/Swift-Vote"
+  }],
   "interests": [
     {
       "name": "Research and Development",
