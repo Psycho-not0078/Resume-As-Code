@@ -7,6 +7,7 @@
     "set_theme": "npm install -i $THEME_PKG",
     "validate": "resumed validate ./Resume/resume.json",
     "render": "resumed render ./Resume/resume.json --theme=$THEME --output=Sathya_Bhat_Resume_Latest.html",
+    "list": "resumed",
     "convert": "node index.js"
   },
   "author": "",

@@ -5,8 +5,8 @@ on:
         branches:
           - 'main'
 env:
-  THEME_PKG: "@jsonresume/jsonresume-theme-professional"
-  THEME: "jsonresume-theme-professional"
+  THEME_PKG: "@jsonresume/jsonresume-theme-class"
+  THEME: "@jsonresume/jsonresume-theme-class"
 jobs:
     build:
         name: Code standards & build
@@ -59,4 +59,4 @@ jobs:
             asset_name: ${{ env.FOO }}_Sathya_Bhat_Resume_Latest.pdf
             tag: ${{ env.FOO }}
             overwrite: true
-            body: ${{ github.event.head_commit.message }}
+            body: ${{ github.event.head_commit.message }}, Theme of resume= $THEME
