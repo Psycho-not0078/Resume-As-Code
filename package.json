@@ -13,7 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "@jsonresume/schema": "^1.0.0",
-    "jsonresume-theme-straightforward": "^0.2.0",
     "puppeteer": "^23.6.1",
     "resumed": "4.0.0",
     "sade": "^1.7.0",
