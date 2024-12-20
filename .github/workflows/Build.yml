@@ -5,8 +5,7 @@ on:
         branches:
           - 'main'
 env:
-  THEME_PKG: "jsonresume-theme-cora"
-  THEME: "jsonresume-theme-cora"
+  THEME: "jsonresume-theme-light-classy-responsive"
 jobs:
     build:
         name: Code standards & build
