@@ -3,7 +3,7 @@
     "name": "Sathya Narayana Bhat",
     "label": "Cybersecurity Engineer",
     "email": "snbhat0708@gmail.com",
-    "url":"https://blog.homeserverfail.in",
+    "url": "https://blog.homeserverfail.in",
     "phone": "+91 9319225818",
     "summary": "Dedicated Cybersecurity Engineer with 2+ years of experience safeguarding critical systems and data. Proficient in Python, Java, C++, SIEM, vulnerability scanners, penetration testing tools, GCP, and AWS. Successfully prevented multiple security breaches in the past year by implementing a robust SIEM and WAF solution and responding swiftly to incidents. Committed to staying at the forefront of cybersecurity trends and technologies, with a focus on innovation and efficiency.",
     "location": {
@@ -74,39 +74,39 @@
       "institution": "NIIT University",
       "area": "B.Tech Computer Science and Engineering",
       "studyType": "Graduated",
-      "startDate": "2018-08-01",
-      "endDate": "2022-06-18",
+      "startDate": "2018-08",
+      "endDate": "2022-06",
       "gpa": "7.8"
     },
     {
       "institution": "Kikani Vidhya Mandir [Coimbatore]",
       "studyType": "12th (CBSE)",
-      "startDate": "2017-04-01",
-      "endDate": "2018-04-18"
+      "startDate": "2017-04",
+      "endDate": "2018-04"
     },
     {
       "institution": "Kikani Vidhya Mandir [Coimbatore]",
       "studyType": "10th (CBSE)",
-      "startDate": "2015-04-01",
-      "endDate": "2016-04-18"
+      "startDate": "2015-04",
+      "endDate": "2016-04"
     },
     {
       "institution": "Abu Dhabi Indian School [Abu Dhabi]",
       "studyType": "Primary and Middle School Education CBSE",
-      "startDate": "2006-08-01",
-      "endDate": "2014-06-18"
+      "startDate": "2006-08",
+      "endDate": "2014-06"
     }
   ],
   "certificates": [
     {
       "name": "Security+",
-      "date": "2021-08-24",
+      "date": "2021-08",
       "issuer": "Comptia",
       "url": "https://www.credly.com/badges/cd2ec8a8-639e-40d6-a99b-37c142f46263/public_url"
     },
     {
       "name": "Google Cloud Cybersecurity Certificate",
-      "date": "2024-06-10",
+      "date": "2024-06",
       "issuer": "Google Cloud Platform",
       "url": "https://www.credly.com/badges/4a2c6c05-b6f5-4690-9462-02f1523c6932/public_url"
     }
@@ -206,22 +206,23 @@
   ],
   "projects": [
     {
-    "name": "Vaultify",
-    "startDate": "2023-01-01",
-    "endDate": "2023-01-01",
-    "description": "A Vault for PII data, to ensure secure and auditable access to them",
-    "highlights": [
-      "Participated in IDfy Hackaton"
-    ],
-    "url": "https://github.com/"
-  },
-  {
-    "name": "Swift Vote",
-    "startDate": "2021-09-11",
-    "endDate": "2022-01-16",
-    "description": " blockchain-based voting system specifically designed to address the legal requirements of a democratic process.",
-    "url": "https://github.com/Psycho-not0078/Swift-Vote"
-  }],
+      "name": "Vaultify",
+      "startDate": "2023-01",
+      "endDate": "2023-01",
+      "description": "A Vault for PII data, to ensure secure and auditable access to them",
+      "highlights": [
+        "Participated in IDfy Hackaton"
+      ],
+      "url": "https://github.com/gyaneshpande/vaultify/"
+    },
+    {
+      "name": "Swift Vote",
+      "startDate": "2021",
+      "endDate": "2022",
+      "description": "Blockchain-based voting system specifically designed to address the legal requirements of a democratic process.",
+      "url": "https://github.com/Psycho-not0078/Swift-Vote/"
+    }
+  ],
   "interests": [
     {
       "name": "Research and Development",

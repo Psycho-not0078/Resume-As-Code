@@ -26,12 +26,13 @@ const docHeight = () => {
     const height = await page.evaluate(docHeight);
 
   // Downlaod the PDF
-    const pdf = await page.pdf({
-        path: `Sathya_Bhat_Resume_Latest.pdf`,
-        printBackground: true,
-        // format: 'A4',
-        height: `${height}px`
-    });
+    // const pdf = await page.pdf({
+    //     path: `Sathya_Bhat_Resume_Latest.pdf`,
+    //     printBackground: true,
+    //     // format: 'A4',
+    //     height: `${height}px`
+    // });
+    await page.pdf({ path: 'Sathya_Bhat_Resume_Latest.pdf', format: 'a4', printBackground: true })
 
   // Close the browser instance
     await browser.close();
