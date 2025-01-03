@@ -5,7 +5,7 @@ on:
         branches:
           - 'main'
 env:
-  THEME: "jsonresume-theme-even"
+  THEME: "jsonresume-theme-a11y"
 jobs:
     build:
         name: Code standards & build
