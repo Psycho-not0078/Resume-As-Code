@@ -5,7 +5,7 @@ on:
         branches:
           - 'main'
 env:
-  THEME: "jsonresume-theme-cora"
+  THEME: "jsonresume-theme-umennel"
 jobs:
     build:
         name: Code standards & build
