@@ -33,7 +33,7 @@ const docHeight = () => {
     //     height: `${height}px`
     // });
     await page.pdf({ path: 'Sathya_Bhat_Resume_Latest.pdf', format: 'a4', printBackground: true, margin: {
-      top: "18.897637795px",
+      top: "9.4px",
       right: "0px",
       bottom: "9.4px",
       left: "0px"
