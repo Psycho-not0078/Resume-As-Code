@@ -5,7 +5,7 @@ on:
         branches:
           - 'main'
 env:
-  THEME: "jsonresume-theme-waterfall"
+  THEME: "jsonresume-theme-kittyfarren"
 jobs:
     build:
         name: Code standards & build
@@ -56,6 +56,6 @@ jobs:
             repo_token: ${{ secrets.GITHUB_TOKEN }}
             file: Sathya_Bhat_Resume_Latest.pdf
             asset_name: ${{ env.FOO }}_Sathya_Bhat_Resume_Latest.pdf
-            tag: ${{ env.FOO }}
+            tag: ${{env.THEME}}
             overwrite: true
             body: ${{ github.event.head_commit.message }}, Theme of resume = ${{env.THEME}}
