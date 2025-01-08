@@ -4,3 +4,6 @@ node_modules/
 Result
 package-lock.json
 resume.html
+# dockerfile
+# *.pdf
+# *.html
