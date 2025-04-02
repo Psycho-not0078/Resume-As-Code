@@ -1,5 +1,5 @@
 FROM node:latest
-ENV THEME="jsonresume-theme-standard-resume"
+ENV THEME="jsonresume-theme-professional"
 
 # We don't need the standalone Chromium
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true

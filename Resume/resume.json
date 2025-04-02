@@ -118,7 +118,9 @@
       "keywords": [
         "AWS",
         "GCP",
-        "Cloud SQL"
+        "Cloud SQL",
+        "GKE",
+        "IaaC"
       ]
     },
     {
@@ -129,7 +131,8 @@
         "Kubernates",
         "CI/CD Pipelines",
         "Packer",
-        "Terraform"
+        "Terraform",
+        "Kustomize"
       ]
     },
     {
