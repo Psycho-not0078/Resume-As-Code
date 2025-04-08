@@ -5,7 +5,7 @@ on:
         branches:
           - 'main'
 env:
-  THEME: "jsonresume-theme-professional"
+  THEME: "jsonresume-theme-straightforward"
 jobs:
     build:
         name: Code standards & build
@@ -31,6 +31,9 @@ jobs:
 
         - name: "📦 Install dependencies"
           run: npm install && npm ci
+
+        - name: "set theme in env"
+          run: echo "$THEME > .env"
 
         - name: "Set Theme for resume"
           run: npm run set_theme
