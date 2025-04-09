@@ -129,7 +129,7 @@
   "skills": [
     {
       "name": "Cloud Computing",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "AWS",
         "GCP",
@@ -152,7 +152,7 @@
     },
     {
       "name": "VAPT",
-      "level": "Expert",
+      "level": "Advanced",
       "keywords": [
         "Pentesting",
         "Code Analysis",
@@ -162,7 +162,7 @@
     },
     {
       "name": "Cybersecurity Concepts",
-      "level": "Expert",
+      "level": "Advanced",
       "keywords": [
         "SAST",
         "Alert Automation",

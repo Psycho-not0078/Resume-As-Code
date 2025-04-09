@@ -8,17 +8,12 @@
     "set_theme": "export $(cat .env | egrep -v '#|^$' | xargs) ; npm install -i $THEME --legacy-peer-deps",
     "validate": "resumed validate ./Resume/resume.json",
     "render": "export $(cat .env | egrep -v '#|^$' | xargs) ; resumed render ./Resume/resume.json --theme=$THEME --output=Sathya_Bhat_Resume_Latest.html",
-    "list": "resumed",
     "convert": "node index.js"
   },
-  "author": "",
+  "author": "nomansland",
   "license": "ISC",
   "dependencies": {
-    "@jsonresume/jsonresume-theme-professional": "^1.0.18",
     "@jsonresume/schema": "^1.0.0",
-    "jsonresume-theme-even": "^0.23.0",
-    "jsonresume-theme-modern": "^0.0.5",
-    "jsonresume-theme-straightforward": "^0.2.0",
     "puppeteer": "^23.6.1",
     "resumed": "4.0.0",
     "sade": "^1.7.0",

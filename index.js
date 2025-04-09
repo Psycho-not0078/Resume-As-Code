@@ -26,19 +26,13 @@ const docHeight = () => {
 
   // To reflect CSS used for screens instead of print
     await page.emulateMediaType('screen');
-    const height = await page.evaluate(docHeight);
+    // const height = await page.evaluate(docHeight);
 
-  // Downlaod the PDF
-    // const pdf = await page.pdf({
-    //     path: `Sathya_Bhat_Resume_Latest.pdf`,
-    //     printBackground: true,
-    //     // format: 'A4',
-    //     height: `${height}px`
-    // });
+
     await page.pdf({ path: 'Sathya_Bhat_Resume_Latest.pdf', printBackground: true, margin: {
-      top: "0px",
+      top: "10px",
       right: "0px",
-      bottom: "10px",
+      bottom: "15px",
       left: "0px"
   }})
 
