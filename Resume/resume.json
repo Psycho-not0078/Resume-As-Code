@@ -193,6 +193,15 @@
         "Linux (Debian, Fedora, Arch etc.)",
         "MacOS"
       ]
+    },
+    {
+      "name": "Incident Response",
+      "level": "Advanced",
+      "keywords": [
+        "SIEM",
+        "WAF",
+        "Playbooks"
+      ]
     }
   ],
   "languages": [

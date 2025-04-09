@@ -4,10 +4,10 @@
   "description": "Lol",
   "main": "index.js",
   "scripts": {
-    "view_theme": "source ./.env; echo $THEME",
-    "set_theme": "source ./.env ; npm install -i $THEME --legacy-peer-deps",
+    "view_theme": "export $(cat .env | egrep -v '#|^$' | xargs); echo $THEME",
+    "set_theme": "export $(cat .env | egrep -v '#|^$' | xargs) ; npm install -i $THEME --legacy-peer-deps",
     "validate": "resumed validate ./Resume/resume.json",
-    "render": "source ./.env ; resumed render ./Resume/resume.json --theme=$THEME --output=Sathya_Bhat_Resume_Latest.html",
+    "render": "export $(cat .env | egrep -v '#|^$' | xargs) ; resumed render ./Resume/resume.json --theme=$THEME --output=Sathya_Bhat_Resume_Latest.html",
     "list": "resumed",
     "convert": "node index.js"
   },

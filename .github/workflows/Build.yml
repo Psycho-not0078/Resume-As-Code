@@ -33,7 +33,7 @@ jobs:
           run: npm install && npm ci
 
         - name: "set theme in env"
-          run: echo "$THEME > .env"
+          run: echo "THEME=$THEME" > .env
 
         - name: "Set Theme for resume"
           run: npm run set_theme
