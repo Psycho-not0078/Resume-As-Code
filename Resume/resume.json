@@ -5,7 +5,7 @@
     "email": "snbhat0708@gmail.com",
     "url": "https://blog.homeserverfail.in",
     "phone": "+91 9319225818",
-    "summary": "Cybersecurity Engineer with 3+ years of experience in incident response, cloud security (AWS/GCP), and SIEM engineering. Proven track record in proactively mitigating threats, automating security workflows, and leading employee awareness initiatives. Passionate about building secure systems through innovative solutions",
+    "summary": "Cybersecurity Engineer with 3+ years of experience in incident response, cloud security (AWS/GCP), and SIEM engineering. Proven track record in proactively mitigating threats, automating security workflows, and leading employee awareness initiatives. Passionate about building secure systems through innovative solutions.",
     "location": {
       "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
       "postalCode": "641030",
@@ -34,13 +34,14 @@
       "startDate": "2022-07-01",
       "summary": "As a Cybersecurity Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
       "highlights": [
-        "Established a unified security posture through a centralized multi-cloud SIEM platform, enhancing threat detection and response capabilities",
-        "Performed Multiple Vulnerablity assessmets for company assets",
+        "Established a unified security posture through a centralized multi-cloud SIEM [Wazuh] platform, reducing misconfigurations and increasing detection capablities",
+        "Experimented with SOAR Deployment [Shuffle, Windmill.dev] for incident response automation",
+        "Implemented Incident Response Playbook with focus on Web Application Firewall [WAF] and SIEM events",
+        "Performed Multiple Vulnerablity assessmets for company assets, reducing the occurance of high/critical severity by 75-80%",
         "Developed and maintained custom security scripts and tools to automate routine tasks and improve efficiency.",
         "Collaborated with development teams to ensure secure coding practices and adherence to security standards.",
         "Responded to security incidents, conducted root cause analysis, and implemented corrective measures to prevent future occurrences.",
         "Contributed to a secure and resilient organization by proactively identifying and addressing potential security risks.",
-        "Implemented Incident Response Playbook with focus on Web Application Firewall [WAF] and SIEM events",
         "Conducted Regular Information Security training sessions for company employees",
         "Trained and empowered L1 SOC analysts to confidently handle critical cybersecurity incidents with speed and precision."
       ],
@@ -147,7 +148,8 @@
         "CI/CD Pipelines",
         "Packer",
         "Terraform",
-        "Kustomize"
+        "Kustomize",
+        "Helm"
       ]
     },
     {
@@ -200,7 +202,9 @@
       "keywords": [
         "SIEM",
         "WAF",
-        "Playbooks"
+        "Playbooks",
+        "Wazuh",
+        "Shuffle"
       ]
     }
   ],
