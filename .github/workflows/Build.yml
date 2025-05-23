@@ -2,7 +2,6 @@ name: Build
 run-name: 🚀 Render resumed
 on: 
     push:
-        branches: ['main']
         paths: ['Resume/resume.json','.github/workflows/Build.','package.json']
 env:
   THEME: "jsonresume-theme-dev-ats"
