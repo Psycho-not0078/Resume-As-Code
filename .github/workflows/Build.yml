@@ -63,6 +63,6 @@ jobs:
             repo_token: ${{ secrets.GITHUB_TOKEN }}
             file: Sathya_Bhat_Resume_Latest.pdf
             asset_name: ${{ env.FOO }}_Sathya_Bhat_Resume_Latest.pdf
-            tag: ${{env.THEME}} ${{ github.event.head_commit.distinct }}
+            tag: ${{env.THEME}}_latest
             overwrite: true
             body: ${{ github.event.head_commit.message }}, Theme of resume = ${{env.THEME}}
