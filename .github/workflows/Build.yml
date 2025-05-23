@@ -2,7 +2,12 @@ name: Build
 run-name: 🚀 Render resumed
 on: 
     push:
-        paths: ['Resume/resume.json','.github/workflows/Build.','package.json']
+        branches:
+          - 'main'
+        paths:
+          - 'Resume/resume.json'
+          - 'package.json'
+          - '.github/workflows/Build.yml'
 env:
   THEME: "jsonresume-theme-dev-ats"
 jobs:
