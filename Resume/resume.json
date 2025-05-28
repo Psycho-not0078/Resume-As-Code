@@ -136,7 +136,10 @@
         "GCP",
         "Cloud SQL",
         "GKE",
-        "IaaC"
+        "IaaC",
+        "Elastic Search Stack",
+        "Opensearch Stack",
+        "Cloudflare"
       ]
     },
     {
@@ -149,7 +152,11 @@
         "Packer",
         "Terraform",
         "Kustomize",
-        "Helm"
+        "Helm",
+        "Logstash",
+        "Fluentd and Fluentbit",
+        "Gitlab",
+        "Github"
       ]
     },
     {
