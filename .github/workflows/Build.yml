@@ -9,7 +9,7 @@ on:
           - 'package.json'
           - '.github/workflows/Build.yml'
 env:
-  THEME: "jsonresume-theme-dev-ats"
+  THEME: "jsonresume-theme-engineering"
 jobs:
     build:
         name: Code standards & build
