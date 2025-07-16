@@ -9,7 +9,7 @@ on:
           - 'package.json'
           - '.github/workflows/Build.yml'
 env:
-  THEME: "jsonresume-theme-engineering"
+  THEME: "git+https://github.com/Psycho-not0078/jsonresume-theme-dev-ats.git"
 jobs:
     build:
         name: Code standards & build
@@ -63,6 +63,6 @@ jobs:
             repo_token: ${{ secrets.GITHUB_TOKEN }}
             file: Sathya_Bhat_Resume_Latest.pdf
             asset_name: ${{ env.FOO }}_Sathya_Bhat_Resume_Latest.pdf
-            tag: ${{env.THEME}}_latest
+            tag: ${{env.THEME}}${{ env.FOO }}_latest
             overwrite: true
             body: ${{ github.event.head_commit.message }}, Theme of resume = ${{env.THEME}}
