@@ -9,7 +9,8 @@ on:
           - 'package.json'
           - '.github/workflows/Build.yml'
 env:
-  THEME: "ssh://git@github.com:Psycho-not0078/jsonresume-theme-dev-ats.git"
+  THEMEREPO: "ssh://git@github.com:Psycho-not0078/jsonresume-theme-dev-ats.git"
+  THEME: "jsonresume-theme-dev-ats"
 jobs:
     build:
         name: Code standards & build
@@ -38,6 +39,9 @@ jobs:
 
         - name: "set theme in env"
           run: echo "THEME=$THEME" > .env
+
+        - name: "set theme in env"
+          run: echo "THEMEREPO=$THEMEREPO" > .env
 
         - name: "Set Theme for resume"
           run: npm run set_theme
