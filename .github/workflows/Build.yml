@@ -9,7 +9,7 @@ on:
           - 'package.json'
           - '.github/workflows/Build.yml'
 env:
-  THEME: "git+https://github.com/Psycho-not0078/jsonresume-theme-dev-ats.git"
+  THEME: "ssh://git@github.com:Psycho-not0078/jsonresume-theme-dev-ats.git"
 jobs:
     build:
         name: Code standards & build
