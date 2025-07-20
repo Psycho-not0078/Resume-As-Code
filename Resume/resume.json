@@ -93,18 +93,6 @@
       "studyType": "12th (CBSE)",
       "startDate": "2017-04",
       "endDate": "2018-04"
-    },
-    {
-      "institution": "Kikani Vidhya Mandir [Coimbatore]",
-      "studyType": "10th (CBSE)",
-      "startDate": "2015-04",
-      "endDate": "2016-04"
-    },
-    {
-      "institution": "Abu Dhabi Indian School [Abu Dhabi]",
-      "studyType": "Primary and Middle School Education CBSE",
-      "startDate": "2006-08",
-      "endDate": "2014-06"
     }
   ],
   "certificates": [
@@ -238,10 +226,14 @@
       "name": "Vaultify",
       "startDate": "2023-01",
       "endDate": "2023-01",
-      "description": "A Vault for PII data, to ensure secure and auditable access to them",
+      "description": " ",
       "highlights": [
+        "Designed and developed a CLI-based secret manager to securely inject secrets into environment variables during local development without external dependencies like Docker or cloud KMS.",
         "Participated in IDfy Hackaton",
-        "Led backend security implementation using AES encryption to safeguard PII access."
+        "Tech Stack: Python, Redis, flask",
+        "Emphasized security-by-design principles: secrets are stored only in encrypted form; the master key is not stored on disk",
+        "Wrote comprehensive documentation and setup scripts to ensure developer onboarding within minutes",
+        "Delivered a clean and modular codebase, enabling future extensibility (e.g., GUI wrappers, plugin architecture)."
       ],
       "url": "https://github.com/gyaneshpande/vaultify/"
     },
@@ -249,7 +241,15 @@
       "name": "Swift Vote",
       "startDate": "2021",
       "endDate": "2022",
-      "description": "Blockchain-based voting system specifically designed to address the legal requirements of a democratic process.",
+      "description": " ",
+      "highlights": [
+        "Blockchain-based voting system specifically designed to address the legal requirements of a democratic process.",
+        "Tech Stack: Python, Solidity [ETH blockchain], SQLite",
+        "Created a voting environment where Vote tallies can be calculated directly from the blockchain, ensuring that results are tamper resistant",
+        "Created it with a zero trust policy approach.",
+        "Clear separation of concerns allows unit testing of core blockchain mechanics, mock voting flows, and integration testing of the full system.",
+        "Designed with a microservices architecture to enable scalable and maintainable deployments in the future"
+      ],
       "url": "https://github.com/Psycho-not0078/Swift-Vote/"
     }
   ],
