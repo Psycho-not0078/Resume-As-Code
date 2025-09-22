@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@jsonresume/schema": "^1.0.0",
+    "jsonresume-theme-dev-ats": "github:Psycho-not0078/jsonresume-theme-dev-ats",
     "puppeteer": "^23.6.1",
     "resumed": "4.0.0",
     "sade": "^1.7.0",

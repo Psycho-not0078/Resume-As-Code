@@ -30,10 +30,10 @@ const docHeight = () => {
 
 
     await page.pdf({ path: 'Sathya_Bhat_Resume_Latest.pdf', printBackground: true, margin: {
-      top: "10px",
-      right: "0px",
-      bottom: "15px",
-      left: "0px"
+      top: "5px",
+      right: "5px",
+      bottom: "5px",
+      left: "5px"
   }})
 
   // Close the browser instance
