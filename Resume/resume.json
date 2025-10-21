@@ -28,11 +28,28 @@
   },
   "work": [
     {
+      "name": "IDfy",
+      "position": "Senior Information Security Engineer",
+      "startDate": "2025-04",
+      "endDate": "2025-10",
+      "location": "",
+      "url": "https://idfy.com",
+      "summary": "As a Senior Information Security Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
+      "description": "",
+      "highlights": [
+        "Implemented Geo-fencing of company Services/Application.",
+        "Enhanced SIEM Implementation with addition of asset onboarding process automation",
+        "Implemented a service to check CI Compliance across all company repositories",
+        "Reduced false positives by ~30% in cloud armour alerts"
+      ]
+    },
+    {
       "company": "IDfy",
       "position": "Information Security Engineer",
       "website": "https://idfy.com",
       "startDate": "2022-07-01",
-      "summary": "As a Cybersecurity Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
+      "endDate": "2025-03-01",
+      "summary": "As a Information Security Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
       "highlights": [
         "Established a unified security posture through a centralized multi-cloud SIEM [Wazuh] platform, reducing misconfigurations and increasing detection capablities",
         "Experimented with SOAR Deployment [Shuffle, Windmill.dev] for incident response automation",
@@ -139,9 +156,10 @@
         "CI/CD Pipelines",
         "Packer",
         "Terraform",
+        "Terragrunt",
         "Kustomize",
         "Helm",
-        "Logstash",
+        "Logstash and Filebeat",
         "Fluentd and Fluentbit",
         "Gitlab",
         "Github"
