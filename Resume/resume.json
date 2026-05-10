@@ -28,6 +28,21 @@
   },
   "work": [
     {
+      "name": "Indsysholdings",
+      "position": "Senior Cybersecurity Engineer",
+      "startDate": "2025-10",
+      "location": "",
+      "url": "https://indsysholdings.com/",
+      "summary": "As a Senior Cybersecurity Engineer at Indsysholdings, I led end-to-end security operations spanning network penetration testing, cloud infrastructure management, and DevSecOps — strengthening the organization's security posture across both on-premise and cloud environments.",
+      "description": "",
+      "highlights": [
+        "Performed end-to-end Network VAPT for clients encompassing reconnaissance, vulnerability scanning, manual exploitation, and risk-rated remediation reporting.",
+        "Designed and implemented firewall rules and policies for local network infrastructure, enhancing perimeter security and access control.",
+        "Managed and optimized AWS cloud infrastructure for company services, achieving ~25–30% cost reduction through resource rightsizing, reserved instances, and usage audits.",
+        "Architected and implemented CI/CD pipelines for both monolithic and microservice applications, streamlining deployment workflows and reducing release cycle time."
+      ]
+    },
+    {
       "name": "IDfy",
       "position": "Senior Information Security Engineer",
       "startDate": "2025-04",
@@ -110,6 +125,12 @@
       "studyType": "12th (CBSE)",
       "startDate": "2017-04",
       "endDate": "2018-04"
+    },
+    {
+      "institution": "Abu Dhabi Indian School",
+      "studyType": "Primary Education",
+      "startDate": "2005",
+      "endDate": "2013"
     }
   ],
   "certificates": [
