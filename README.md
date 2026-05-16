@@ -1,4 +1,4 @@
-# effective-winner
+# Resume-As-Code
 
 A Repository for my resume, with github action for automated rendering.
 
@@ -9,4 +9,4 @@ A Repository for my resume, with github action for automated rendering.
 - The end.
 ## Credits
 - [Jsonresume](https://jsonresume.org/schema)
-- [Jsonresume one pager theme](https://www.npmjs.com/package/@cakeinpanic/jsonresume-theme-one-page)
+- [Jsonresume dev ats theme](https://github.com/asqrzk/jsonresume-theme-dev-ats)
