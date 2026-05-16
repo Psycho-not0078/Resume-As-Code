@@ -7,3 +7,6 @@ A Repository for my resume, with github action for automated rendering.
 - change the same in line 8
 - save the file, commit the changes and finally push the changes into repo.
 - The end.
+## Credits
+- [Jsonresume](https://jsonresume.org/schema)
+- [Jsonresume one pager theme](https://www.npmjs.com/package/@cakeinpanic/jsonresume-theme-one-page)
