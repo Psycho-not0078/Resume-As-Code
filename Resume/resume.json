@@ -5,7 +5,7 @@
     "email": "snbhat0708@gmail.com",
     "url": "https://blog.homeserverfail.in",
     "phone": "+91 9319225818",
-    "summary": "Cybersecurity Engineer with 4+ years across AI/LLM security assessments, adversarial testing, cloud security (AWS/GCP), and penetration testing. Built an internal intervention framework standardizing AI security reviews for LLM-integrated applications — covering prompt injection, prompt leakage, training data poisoning, and model evasion. Comfortable across the full DevSecOps stack: Kubernetes, Terraform, CI/CD, SIEM engineering, and Python automation. Runs a GitOps-driven homelab K3s cluster with self-hosted LLMs (Ollama, Gemma, Bonsai) for infrastructure and automation experimentation.",
+    "summary": "Cybersecurity Engineer with 4+ years across AI/LLM security assessments, adversarial testing, cloud security (AWS/GCP), and penetration testing. Built an internal intervention framework standardizing AI security reviews for LLM-integrated applications - covering prompt injection, prompt leakage, training data poisoning, and model evasion. Comfortable across the full DevSecOps stack: Kubernetes, Terraform, CI/CD, SIEM engineering, and Python automation. Runs a GitOps-driven homelab K3s cluster with self-hosted LLMs (Ollama, Gemma, Bonsai) for infrastructure and automation experimentation.",
     "location": {
       "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
       "postalCode": "641030",
@@ -33,14 +33,14 @@
       "startDate": "2025-10",
       "location": "",
       "url": "https://indsysholdings.com/",
-      "summary": "As a Senior Cybersecurity Engineer at Indsysholdings, I led end-to-end security operations spanning network penetration testing, cloud infrastructure management, and DevSecOps — strengthening the organization's security posture across both on-premise and cloud environments.",
+      "summary": "As a Senior Cybersecurity Engineer at Indsysholdings, I led end-to-end security operations spanning network penetration testing, cloud infrastructure management, and DevSecOps - strengthening the organization's security posture across both on-premise and cloud environments.",
       "description": "",
       "highlights": [
         "Performed end-to-end Network VAPT for clients encompassing reconnaissance, vulnerability scanning, manual exploitation, and risk-rated remediation reporting.",
         "Designed and implemented firewall rules and policies for local network infrastructure, enhancing perimeter security and access control.",
         "Managed and optimized AWS cloud infrastructure for company services, achieving ~25–30% cost reduction through resource rightsizing, reserved instances, and usage audits.",
         "Architected and implemented CI/CD pipelines for both monolithic and microservice applications, streamlining deployment workflows and reducing release cycle time.",
-        "Architected a proof-of-concept multi-tenant ERPNext deployment on a self-managed Kubernetes cluster, achieving logical compute and storage isolation per tenant using ArgoCD ApplicationSets and Helm — enabling scalable, GitOps-driven onboarding of new tenants without manual intervention."
+        "Architected a proof-of-concept multi-tenant ERPNext deployment on a self-managed Kubernetes cluster, achieving logical compute and storage isolation per tenant using ArgoCD ApplicationSets and Helm - enabling scalable, GitOps-driven onboarding of new tenants without manual intervention."
       ]
     },
     {
@@ -53,7 +53,7 @@
       "summary": "As a Senior Information Security Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
       "description": "",
       "highlights": [
-        "Designed and operationalized an internal AI security intervention framework defining assessment triggers, threat models, and adversarial testing protocols for LLM-integrated features across internal and client-facing applications — standardizing the team's approach to AI/LLM security reviews aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS.",
+        "Designed and operationalized an internal AI security intervention framework defining assessment triggers, threat models, and adversarial testing protocols for LLM-integrated features across internal and client-facing applications - standardizing the team's approach to AI/LLM security reviews aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS.",
         "Conducted hands-on adversarial testing against LLM-integrated applications, validating risks across prompt injection, prompt leakage, training data poisoning, and model evasion; collaborated with AI/ML and Gen AI developers on mitigations.",
         "Enhanced multi-cloud SIEM with automated asset onboarding, reducing manual provisioning effort and improving detection coverage.",
         "Implemented a CI compliance scanner running across all company repositories, surfacing policy drift early in the SDLC.",
@@ -70,7 +70,7 @@
       "endDate": "2025-03-01",
       "summary": "As a Information Security Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
       "highlights": [
-        "Conducted AI/LLM security assessments covering prompt injection, prompt leakage, training data poisoning, and model evasion — identifying risks in LLM-integrated applications and collaborating with development teams on mitigations",
+        "Conducted AI/LLM security assessments covering prompt injection, prompt leakage, training data poisoning, and model evasion - identifying risks in LLM-integrated applications and collaborating with development teams on mitigations",
         "Established a unified security posture through a centralized multi-cloud SIEM [Wazuh] platform, reducing misconfigurations and increasing detection capablities",
         "Experimented with SOAR Deployment [Shuffle, Windmill.dev] for incident response automation",
         "Implemented Incident Response Playbook with focus on Web Application Firewall [WAF] and SIEM events",
@@ -326,14 +326,14 @@
       "url": "https://github.com/Psycho-not0078/Swift-Vote/"
     },
     {
-      "name": "Personal Homelab — K3s Cluster",
+      "name": "Personal Homelab - K3s Cluster",
       "startDate": "2024",
       "description": " ",
       "highlights": [
         "Self-hosted production-grade K3s cluster managing media, music, and LLM services with GitOps-driven continuous deployment via ArgoCD.",
         "Secured all external access through Cloudflare Tunnels, eliminating public port exposure and enforcing zero-trust network access.",
         "Deployed and operated self-hosted LLM instances (Gemma 4B, Bonsai-4B on Ollama) as a personal automation backbone, integrated with homelab services for workflow automation.",
-        "Maintained full infrastructure-as-code discipline — all service configurations version-controlled and reconciled automatically via ArgoCD.",
+        "Maintained full infrastructure-as-code discipline - all service configurations version-controlled and reconciled automatically via ArgoCD.",
         "Tech Stack: K3s, ArgoCD, Cloudflare Tunnels, Helm/Kustomize"
       ]
     },
