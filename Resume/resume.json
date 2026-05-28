@@ -327,7 +327,7 @@
     },
     {
       "name": "Personal Homelab — K3s Cluster",
-      "startDate": "2023",
+      "startDate": "2024",
       "description": " ",
       "highlights": [
         "Self-hosted production-grade K3s cluster managing media, music, and LLM services with GitOps-driven continuous deployment via ArgoCD.",
@@ -339,7 +339,7 @@
     },
     {
       "name": "Automated Resume Pipeline",
-      "startDate": "2024",
+      "startDate": "2025",
       "description": " ",
       "highlights": [
         "Designed a GitHub Actions CI pipeline that renders a JSON-sourced resume to PDF on every commit using a custom-modified ATS-optimized jsonresume theme.",
