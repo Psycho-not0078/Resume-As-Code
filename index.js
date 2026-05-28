@@ -1,43 +1,39 @@
 const puppeteer = require('puppeteer');
-const fs = require('fs');
+const path = require('path');
 
-const docHeight = () => {
-  const body = document.body
-  const html = document.documentElement;
-  return Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
-}
+const HTML_FILE = 'Sathya_Bhat_Resume_Latest.html';
+const PDF_FILE = 'Sathya_Bhat_Resume_Latest.pdf';
 
 (async () => {
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox', '--font-render-hinting=none'],
+    timeout: 30000,
+  });
 
-  // Get type of source from process.argv, default to url
-    var htmlFilePath = "Sathya_Bhat_Resume_Latest.html"
-
-  // Create a browser instance
-    const browser = await puppeteer.launch({
-      args: ['--no-sandbox'],
-      timeout: 10000,
-    });
-
-  // Create a new page
+  try {
     const page = await browser.newPage();
 
-    const html = fs.readFileSync(htmlFilePath, 'utf8');
-    await page.setContent(html, { waitUntil: 'domcontentloaded' });
+    await page.goto('file://' + path.resolve(HTML_FILE), {
+      waitUntil: 'networkidle0',
+      timeout: 30000,
+    });
 
-  // To reflect CSS used for screens instead of print
-    await page.emulateMediaType('screen');
-    // const height = await page.evaluate(docHeight);
+    await page.evaluateHandle('document.fonts.ready');
+    await page.emulateMediaType('print');
 
+    // Let the theme's @page rule control size and margins.
+    // Do NOT pass `format` or `margin` here — they would override @page.
+    await page.pdf({
+      path: PDF_FILE,
+      printBackground: true,
+      preferCSSPageSize: true,
+    });
 
-    await page.pdf({ path: 'Sathya_Bhat_Resume_Latest.pdf', printBackground: true, margin: {
-      top: "5px",
-      right: "5px",
-      bottom: "5px",
-      left: "5px"
-  }})
-
-  // Close the browser instance
+    console.log(`PDF written to ${PDF_FILE}`);
+  } finally {
     await browser.close();
-  
-})();
-
+  }
+})().catch((err) => {
+  console.error('PDF generation failed:', err);
+  process.exit(1);
+});

@@ -8,6 +8,7 @@ on:
           - 'Resume/resume.json'
           - 'package.json'
           - '.github/workflows/Build.yml'
+          - 'index.js'
 env:
   THEMEREPO: "ssh://git@github.com:Psycho-not0078/jsonresume-theme-dev-ats.git"
   THEME: "jsonresume-theme-dev-ats"
