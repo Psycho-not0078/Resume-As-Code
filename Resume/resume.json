@@ -39,7 +39,7 @@
         "Architected and operated a proof-of-concept multi-tenant ERPNext platform on a self-managed Kubernetes cluster, achieving logical compute and storage isolation per tenant using ArgoCD ApplicationSets and Helm - enabling scalable, GitOps-driven onboarding of new tenants without manual intervention.",
         "Architected and implemented CI/CD pipelines for both monolithic and microservice applications, streamlining deployment workflows and reducing release cycle time.",
         "Managed and optimized AWS cloud infrastructure for company services, achieving ~25-30% cost reduction through resource rightsizing, reserved instances, and usage audits.",
-        "Designed and implemented firewall rules and policies for local network infrastructure, enhancing perimeter security and access control.",
+        "Designed and implemented network firewall rules and segmentation policies for on-premises infrastructure, hardening the network perimeter and controlling internal access paths.",
         "Performed end-to-end Network VAPT for clients encompassing reconnaissance, vulnerability scanning, manual exploitation, and risk-rated remediation reporting."
       ]
     },
@@ -55,10 +55,10 @@
       "highlights": [
         "Implemented a CI compliance scanner running across all company repositories, surfacing policy drift early in the SDLC and shifting security left in the delivery pipeline.",
         "Enhanced multi-cloud SIEM with automated asset onboarding, reducing manual provisioning effort and improving detection coverage.",
+        "Implemented network-layer geo-fencing across company services and applications, reducing inbound attack surface from out-of-scope regions.",
+        "Reduced false positives in Google Cloud Armor (WAF / edge network) alerts by ~30% through detection tuning and signature refinement.",
         "Designed and operationalized an internal AI security intervention framework defining assessment triggers, threat models, and adversarial testing protocols for LLM-integrated features across internal and client-facing applications - standardizing the team's approach to AI/LLM security reviews aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS.",
         "Conducted hands-on adversarial testing against LLM-integrated applications, validating risks across prompt injection, prompt leakage, training data poisoning, and model evasion; collaborated with AI/ML and Gen AI developers on mitigations.",
-        "Reduced false positives in Google Cloud Armor alerts by ~30% through detection tuning and signature refinement.",
-        "Implemented geo-fencing across company services/applications to reduce attack surface from out-of-scope regions.",
         "Supported SOC 2 Type 2 audit by providing evidence for SIEM, vulnerability management, and incident response controls."
       ]
     },
@@ -195,6 +195,21 @@
       ]
     },
     {
+      "name": "Networking & Storage",
+      "level": "Advanced",
+      "keywords": [
+        "Firewall design & network segmentation",
+        "Cloudflare Tunnels (zero-trust network access)",
+        "Geo-fencing / edge access control",
+        "WAF (Google Cloud Armor)",
+        "Network VAPT",
+        "Persistent storage & volumes (Kubernetes PV/PVC)",
+        "Per-tenant storage isolation",
+        "DNS, reverse proxy & ingress",
+        "Network monitoring & log analytics"
+      ]
+    },
+    {
       "name": "Software Development",
       "level": "Advanced",
       "keywords": [
@@ -301,8 +316,9 @@
       "description": " ",
       "highlights": [
         "Self-hosted production-grade K3s cluster managing media, music, and LLM services with GitOps-driven continuous deployment via ArgoCD.",
+        "Designed cluster networking and ingress with Cloudflare Tunnels for zero-trust external access, eliminating public port exposure while routing traffic securely to internal services.",
+        "Managed persistent storage and volume provisioning for stateful workloads across the cluster.",
         "Maintained full infrastructure-as-code discipline - all service configurations version-controlled and reconciled automatically via ArgoCD.",
-        "Secured all external access through Cloudflare Tunnels, eliminating public port exposure and enforcing zero-trust network access.",
         "Deployed and operated self-hosted LLM instances (Gemma 4B, Bonsai-4B on Ollama) as a personal automation backbone, integrated with homelab services for workflow automation.",
         "Tech Stack: K3s, ArgoCD, Cloudflare Tunnels, Helm/Kustomize"
       ]
