@@ -29,11 +29,11 @@
   "work": [
     {
       "name": "Indsysholdings",
-      "position": "Senior DevSecOps Engineer",
+      "position": "Senior Cybersecurity Engineer — DevSecOps & Cloud Security",
       "startDate": "2025-10",
       "location": "",
       "url": "https://indsysholdings.com/",
-      "summary": "As a Senior DevSecOps Engineer at Indsysholdings, I led infrastructure automation and platform operations across on-premise and cloud environments - owning Kubernetes, CI/CD, and cloud cost while embedding security into the delivery lifecycle.",
+      "summary": "As a Senior Cybersecurity Engineer at Indsysholdings, I led infrastructure automation and platform operations across on-premise and cloud environments - owning Kubernetes, CI/CD, and cloud cost while embedding security into the delivery lifecycle.",
       "description": "",
       "highlights": [
         "Architected and operated a proof-of-concept multi-tenant ERPNext platform on a self-managed Kubernetes cluster, achieving logical compute and storage isolation per tenant using ArgoCD ApplicationSets and Helm - enabling scalable, GitOps-driven onboarding of new tenants without manual intervention.",
@@ -45,7 +45,7 @@
     },
     {
       "name": "IDfy",
-      "position": "Senior Information Security Engineer (DevSecOps)",
+      "position": "Senior Information Security Engineer (DevSecOps focus)",
       "startDate": "2025-04",
       "endDate": "2025-10",
       "location": "",
