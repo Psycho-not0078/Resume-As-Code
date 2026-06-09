@@ -5,7 +5,7 @@
     "email": "snbhat0708@gmail.com",
     "url": "https://blog.homeserverfail.in",
     "phone": "+91 9319225818",
-    "summary": "Cybersecurity Engineer with 4+ years across AI/LLM security assessments, adversarial testing, cloud security (AWS/GCP), and penetration testing. Built an internal intervention framework standardizing AI security reviews for LLM-integrated applications - covering prompt injection, prompt leakage, training data poisoning, and model evasion. Comfortable across the full DevSecOps stack: Kubernetes, Terraform, CI/CD, SIEM engineering, and Python automation. Runs a GitOps-driven homelab K3s cluster with self-hosted LLMs (Ollama, Gemma, Bonsai) for infrastructure and automation experimentation.",
+    "summary": "Cybersecurity Engineer with 4+ years spanning penetration testing and VAPT, cloud security (AWS/GCP), SIEM engineering and detection, incident response, and DevSecOps. Experienced across the full security lifecycle - from reconnaissance and manual exploitation to detection tuning, vulnerability management, and SOC 2 Type 2 audit support - reducing high/critical findings by 75-80% and cutting alert false positives by ~30%. Also leads adversarial AI/LLM security testing (prompt injection, prompt leakage, training data poisoning, model evasion) aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS. Comfortable across the DevSecOps stack - Kubernetes, Terraform, CI/CD, and Python automation - and runs a GitOps-driven homelab K3s cluster for hands-on infrastructure and security experimentation.",
     "location": {
       "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
       "postalCode": "641030",
@@ -29,7 +29,7 @@
   "work": [
     {
       "name": "Indsysholdings",
-      "position": "Senior Cybersecurity Engineer",
+      "position": "Senior Cybersecurity Engineer - DevSecOps & Cloud Security",
       "startDate": "2025-10",
       "location": "",
       "url": "https://indsysholdings.com/",
@@ -45,21 +45,20 @@
     },
     {
       "name": "IDfy",
-      "position": "Senior Information Security Engineer",
+      "position": "Senior Information Security Engineer - DevSecOps & Cloud Security",
       "startDate": "2025-04",
       "endDate": "2025-10",
       "location": "",
       "url": "https://idfy.com",
       "summary": "As a Senior Information Security Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
-      "description": "",
       "highlights": [
-        "Designed and operationalized an internal AI security intervention framework defining assessment triggers, threat models, and adversarial testing protocols for LLM-integrated features across internal and client-facing applications - standardizing the team's approach to AI/LLM security reviews aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS.",
-        "Conducted hands-on adversarial testing against LLM-integrated applications, validating risks across prompt injection, prompt leakage, training data poisoning, and model evasion; collaborated with AI/ML and Gen AI developers on mitigations.",
+        "Supported SOC 2 Type 2 audit by providing evidence for SIEM, vulnerability management, and incident response controls.",
         "Enhanced multi-cloud SIEM with automated asset onboarding, reducing manual provisioning effort and improving detection coverage.",
-        "Implemented a CI compliance scanner running across all company repositories, surfacing policy drift early in the SDLC.",
         "Reduced false positives in Google Cloud Armor alerts by ~30% through detection tuning and signature refinement.",
+        "Implemented a CI compliance scanner running across all company repositories, surfacing policy drift early in the SDLC.",
         "Implemented geo-fencing across company services/applications to reduce attack surface from out-of-scope regions.",
-        "Supported SOC 2 Type 2 audit by providing evidence for SIEM, vulnerability management, and incident response controls."
+        "Designed and operationalized an internal AI security intervention framework defining assessment triggers, threat models, and adversarial testing protocols for LLM-integrated features across internal and client-facing applications - standardizing the team's approach to AI/LLM security reviews aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS.",
+        "Conducted hands-on adversarial testing against LLM-integrated applications, validating risks across prompt injection, prompt leakage, training data poisoning, and model evasion; collaborated with AI/ML and Gen AI developers on mitigations."
       ]
     },
     {
@@ -70,14 +69,14 @@
       "endDate": "2025-03-01",
       "summary": "As a Information Security Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
       "highlights": [
-        "Conducted AI/LLM security assessments covering prompt injection, prompt leakage, training data poisoning, and model evasion - identifying risks in LLM-integrated applications and collaborating with development teams on mitigations",
+        "Performed multiple vulnerability assessments for company assets, reducing the occurrence of high/critical severity findings by 75-80%",
         "Established a unified security posture through a centralized multi-cloud SIEM [Wazuh] platform, reducing misconfigurations and increasing detection capablities",
-        "Experimented with SOAR Deployment [Shuffle, Windmill.dev] for incident response automation",
         "Implemented Incident Response Playbook with focus on Web Application Firewall [WAF] and SIEM events",
-        "Performed Multiple Vulnerablity assessmets for company assets, reducing the occurance of high/critical severity by 75-80%",
-        "Developed and maintained custom security scripts and tools to automate routine tasks and improve efficiency.",
-        "Collaborated with development teams to ensure secure coding practices and adherence to security standards.",
         "Responded to security incidents, conducted root cause analysis, and implemented corrective measures to prevent future occurrences.",
+        "Experimented with SOAR Deployment [Shuffle, Windmill.dev] for incident response automation",
+        "Collaborated with development teams to ensure secure coding practices and adherence to security standards.",
+        "Developed and maintained custom security scripts and tools to automate routine tasks and improve efficiency.",
+        "Conducted AI/LLM security assessments covering prompt injection, prompt leakage, training data poisoning, and model evasion - identifying risks in LLM-integrated applications and collaborating with development teams on mitigations",
         "Contributed to a secure and resilient organization by proactively identifying and addressing potential security risks.",
         "Conducted Regular Information Security training sessions for company employees",
         "Trained and empowered L1 SOC analysts to confidently handle critical cybersecurity incidents with speed and precision."
@@ -87,7 +86,7 @@
     },
     {
       "company": "IDfy",
-      "position": "Information Security Engineer [Internship]",
+      "position": "Information Security Engineer - Internship",
       "website": "https://idfy.com",
       "startDate": "2022-01-01",
       "endDate": "2022-06-30",
@@ -102,7 +101,7 @@
     },
     {
       "company": "NIIT University",
-      "position": "PHP Developer [Internship]",
+      "position": "PHP Developer - Internship",
       "website": "https://niituniversity.in/",
       "startDate": "2021-06-01",
       "endDate": "2021-08-01",
@@ -130,12 +129,6 @@
       "studyType": "12th (CBSE)",
       "startDate": "2017-04",
       "endDate": "2018-04"
-    },
-    {
-      "institution": "Abu Dhabi Indian School",
-      "studyType": "Primary Education",
-      "startDate": "2005",
-      "endDate": "2013"
     }
   ],
   "certificates": [
@@ -160,6 +153,64 @@
   ],
   "skills": [
     {
+      "name": "VAPT",
+      "level": "Advanced",
+      "keywords": [
+        "Pentesting",
+        "Network VAPT",
+        "Web Application Security",
+        "Code Analysis",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Cybersecurity Concepts",
+      "level": "Advanced",
+      "keywords": [
+        "SAST",
+        "Alert Automation",
+        "Threat Analysis",
+        "Active Directory",
+        "Threat Detection",
+        "Threat Modeling",
+        "Threat Intelligence "
+      ]
+    },
+    {
+      "name": "Incident Response",
+      "level": "Advanced",
+      "keywords": [
+        "SIEM",
+        "WAF",
+        "Playbooks",
+        "Wazuh",
+        "Shuffle"
+      ]
+    },
+    {
+      "name": "Cloud Security",
+      "level": "Advanced",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "Cloud SQL",
+        "GKE",
+        "IaaC",
+        "Elastic Search Stack",
+        "Opensearch Stack",
+        "Cloudflare"
+      ]
+    },
+    {
+      "name": "Security Data Analytics",
+      "level": "Advanced",
+      "keywords": [
+        "Log analytics",
+        "detection engineering",
+        "query languages (KQL/SPL/Lucene)"
+      ]
+    },
+    {
       "name": "AI/LLM Security",
       "level": "Advanced",
       "keywords": [
@@ -171,20 +222,6 @@
         "Model Evasion",
         "LLM Red Teaming",
         "AI Threat Modeling"
-      ]
-    },
-    {
-      "name": "Cloud Computing",
-      "level": "Advanced",
-      "keywords": [
-        "AWS",
-        "GCP",
-        "Cloud SQL",
-        "GKE",
-        "IaaC",
-        "Elastic Search Stack",
-        "Opensearch Stack",
-        "Cloudflare"
       ]
     },
     {
@@ -209,38 +246,6 @@
       ]
     },
     {
-      "name": "Security Data Analytics",
-      "level": "Advanced",
-      "keywords": [
-        "Log analytics", 
-        "detection engineering", 
-        "query languages (KQL/SPL/Lucene)"
-      ]
-    },
-    {
-      "name": "VAPT",
-      "level": "Advanced",
-      "keywords": [
-        "Pentesting",
-        "Code Analysis",
-        "Automation",
-        "Network VAPT"
-      ]
-    },
-    {
-      "name": "Cybersecurity Concepts",
-      "level": "Advanced",
-      "keywords": [
-        "SAST",
-        "Alert Automation",
-        "Threat Analysis",
-        "Active Directory",
-        "Threat Detection",
-        "Threat Modeling",
-        "Threat Intelligence "
-      ]
-    },
-    {
       "name": "Software Development",
       "level": "Advanced",
       "keywords": [
@@ -262,17 +267,6 @@
         "Windows",
         "Linux (Debian, Fedora, Arch etc.)",
         "MacOS"
-      ]
-    },
-    {
-      "name": "Incident Response",
-      "level": "Advanced",
-      "keywords": [
-        "SIEM",
-        "WAF",
-        "Playbooks",
-        "Wazuh",
-        "Shuffle"
       ]
     }
   ],
