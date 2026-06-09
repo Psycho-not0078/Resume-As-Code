@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Sathya Narayana Bhat",
-    "label": "Cybersecurity Engineer",
+    "label": "DevOps Engineer",
     "email": "snbhat0708@gmail.com",
     "url": "https://blog.homeserverfail.in",
     "phone": "+91 9319225818",
-    "summary": "Cybersecurity Engineer with 4+ years across AI/LLM security assessments, adversarial testing, cloud security (AWS/GCP), and penetration testing. Built an internal intervention framework standardizing AI security reviews for LLM-integrated applications - covering prompt injection, prompt leakage, training data poisoning, and model evasion. Comfortable across the full DevSecOps stack: Kubernetes, Terraform, CI/CD, SIEM engineering, and Python automation. Runs a GitOps-driven homelab K3s cluster with self-hosted LLMs (Ollama, Gemma, Bonsai) for infrastructure and automation experimentation.",
+    "summary": "DevOps Engineer with 4+ years building and securing cloud-native infrastructure across AWS and GCP. Hands-on with the full DevSecOps stack - Kubernetes, Terraform/Terragrunt, Helm, ArgoCD, CI/CD pipelines, and Python automation - with a track record of GitOps-driven deployments, infrastructure-as-code, and cloud cost optimization. Security-first mindset shaped by penetration testing, SIEM engineering, and AI/LLM security reviews, bringing shift-left security into delivery pipelines. Runs a GitOps-driven homelab K3s cluster with self-hosted LLMs (Ollama, Gemma, Bonsai) for infrastructure and automation experimentation.",
     "location": {
       "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
       "postalCode": "641030",
@@ -29,34 +29,34 @@
   "work": [
     {
       "name": "Indsysholdings",
-      "position": "Senior Cybersecurity Engineer",
+      "position": "Senior DevSecOps Engineer",
       "startDate": "2025-10",
       "location": "",
       "url": "https://indsysholdings.com/",
-      "summary": "As a Senior Cybersecurity Engineer at Indsysholdings, I led end-to-end security operations spanning network penetration testing, cloud infrastructure management, and DevSecOps - strengthening the organization's security posture across both on-premise and cloud environments.",
+      "summary": "As a Senior DevSecOps Engineer at Indsysholdings, I led infrastructure automation and platform operations across on-premise and cloud environments - owning Kubernetes, CI/CD, and cloud cost while embedding security into the delivery lifecycle.",
       "description": "",
       "highlights": [
-        "Performed end-to-end Network VAPT for clients encompassing reconnaissance, vulnerability scanning, manual exploitation, and risk-rated remediation reporting.",
-        "Designed and implemented firewall rules and policies for local network infrastructure, enhancing perimeter security and access control.",
-        "Managed and optimized AWS cloud infrastructure for company services, achieving ~25–30% cost reduction through resource rightsizing, reserved instances, and usage audits.",
+        "Architected and operated a proof-of-concept multi-tenant ERPNext platform on a self-managed Kubernetes cluster, achieving logical compute and storage isolation per tenant using ArgoCD ApplicationSets and Helm - enabling scalable, GitOps-driven onboarding of new tenants without manual intervention.",
         "Architected and implemented CI/CD pipelines for both monolithic and microservice applications, streamlining deployment workflows and reducing release cycle time.",
-        "Architected a proof-of-concept multi-tenant ERPNext deployment on a self-managed Kubernetes cluster, achieving logical compute and storage isolation per tenant using ArgoCD ApplicationSets and Helm - enabling scalable, GitOps-driven onboarding of new tenants without manual intervention."
+        "Managed and optimized AWS cloud infrastructure for company services, achieving ~25-30% cost reduction through resource rightsizing, reserved instances, and usage audits.",
+        "Designed and implemented firewall rules and policies for local network infrastructure, enhancing perimeter security and access control.",
+        "Performed end-to-end Network VAPT for clients encompassing reconnaissance, vulnerability scanning, manual exploitation, and risk-rated remediation reporting."
       ]
     },
     {
       "name": "IDfy",
-      "position": "Senior Information Security Engineer",
+      "position": "Senior Information Security Engineer (DevSecOps)",
       "startDate": "2025-04",
       "endDate": "2025-10",
       "location": "",
       "url": "https://idfy.com",
-      "summary": "As a Senior Information Security Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
+      "summary": "As a Senior Information Security Engineer at IDfy, I drove DevSecOps automation across CI/CD and multi-cloud infrastructure - integrating security controls into pipelines, scaling SIEM coverage, and standardizing AI/LLM security reviews.",
       "description": "",
       "highlights": [
+        "Implemented a CI compliance scanner running across all company repositories, surfacing policy drift early in the SDLC and shifting security left in the delivery pipeline.",
+        "Enhanced multi-cloud SIEM with automated asset onboarding, reducing manual provisioning effort and improving detection coverage.",
         "Designed and operationalized an internal AI security intervention framework defining assessment triggers, threat models, and adversarial testing protocols for LLM-integrated features across internal and client-facing applications - standardizing the team's approach to AI/LLM security reviews aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS.",
         "Conducted hands-on adversarial testing against LLM-integrated applications, validating risks across prompt injection, prompt leakage, training data poisoning, and model evasion; collaborated with AI/ML and Gen AI developers on mitigations.",
-        "Enhanced multi-cloud SIEM with automated asset onboarding, reducing manual provisioning effort and improving detection coverage.",
-        "Implemented a CI compliance scanner running across all company repositories, surfacing policy drift early in the SDLC.",
         "Reduced false positives in Google Cloud Armor alerts by ~30% through detection tuning and signature refinement.",
         "Implemented geo-fencing across company services/applications to reduce attack surface from out-of-scope regions.",
         "Supported SOC 2 Type 2 audit by providing evidence for SIEM, vulnerability management, and incident response controls."
@@ -68,15 +68,15 @@
       "website": "https://idfy.com",
       "startDate": "2022-07-01",
       "endDate": "2025-03-01",
-      "summary": "As a Information Security Engineer at IDfy, I played a pivotal role in safeguarding our organization's critical infrastructure.",
+      "summary": "As an Information Security Engineer at IDfy, I built and operated security automation and observability platforms across multi-cloud infrastructure, partnering with engineering teams to embed secure-by-default practices into the SDLC.",
       "highlights": [
-        "Conducted AI/LLM security assessments covering prompt injection, prompt leakage, training data poisoning, and model evasion - identifying risks in LLM-integrated applications and collaborating with development teams on mitigations",
-        "Established a unified security posture through a centralized multi-cloud SIEM [Wazuh] platform, reducing misconfigurations and increasing detection capablities",
+        "Established a unified security posture through a centralized multi-cloud SIEM [Wazuh] platform, reducing misconfigurations and increasing detection capabilities",
         "Experimented with SOAR Deployment [Shuffle, Windmill.dev] for incident response automation",
-        "Implemented Incident Response Playbook with focus on Web Application Firewall [WAF] and SIEM events",
-        "Performed Multiple Vulnerablity assessmets for company assets, reducing the occurance of high/critical severity by 75-80%",
         "Developed and maintained custom security scripts and tools to automate routine tasks and improve efficiency.",
+        "Implemented Incident Response Playbook with focus on Web Application Firewall [WAF] and SIEM events",
         "Collaborated with development teams to ensure secure coding practices and adherence to security standards.",
+        "Performed Multiple Vulnerability assessments for company assets, reducing the occurrence of high/critical severity by 75-80%",
+        "Conducted AI/LLM security assessments covering prompt injection, prompt leakage, training data poisoning, and model evasion - identifying risks in LLM-integrated applications and collaborating with development teams on mitigations",
         "Responded to security incidents, conducted root cause analysis, and implemented corrective measures to prevent future occurrences.",
         "Contributed to a secure and resilient organization by proactively identifying and addressing potential security risks.",
         "Conducted Regular Information Security training sessions for company employees",
@@ -87,11 +87,11 @@
     },
     {
       "company": "IDfy",
-      "position": "Information Security Engineer [Internship]",
+      "position": "Information Security Engineer - Internship",
       "website": "https://idfy.com",
       "startDate": "2022-01-01",
       "endDate": "2022-06-30",
-      "summary": "Gain practical cybersecurity experience as an intern at IDfy, where I contributed to enhancing application security. I performed comprehensive vulnerability assessments (VAPT) on critical applications, identifying and mitigating potential risks.",
+      "summary": "Gained practical cybersecurity experience as an intern at IDfy, where I contributed to enhancing application security. I performed comprehensive vulnerability assessments (VAPT) on critical applications, identifying and mitigating potential risks.",
       "highlights": [
         "Collaborated with development teams to address identified vulnerabilities.",
         "Provided detailed vulnerability reports with remediation recommendations.",
@@ -102,7 +102,7 @@
     },
     {
       "company": "NIIT University",
-      "position": "PHP Developer [Internship]",
+      "position": "PHP Developer - Internship",
       "website": "https://niituniversity.in/",
       "startDate": "2021-06-01",
       "endDate": "2021-08-01",
@@ -140,10 +140,10 @@
   ],
   "certificates": [
     {
-      "name": "Security+",
-      "date": "2021-08",
-      "issuer": "Comptia",
-      "url": "https://www.credly.com/badges/cd2ec8a8-639e-40d6-a99b-37c142f46263/public_url"
+      "name": "Practical Cloud Security",
+      "date": "2025-04-09",
+      "issuer": "O'Reilly Media",
+      "url": "https://www.credly.com/badges/6ea7ef53-2f7c-42cc-8eaa-e390ec30bb25/public_url"
     },
     {
       "name": "Google Cloud Cybersecurity Certificate",
@@ -152,13 +152,102 @@
       "url": "https://www.credly.com/badges/4a2c6c05-b6f5-4690-9462-02f1523c6932/public_url"
     },
     {
-      "name": "Practical Cloud Security",
-      "date": "2025-04-09",
-      "issuer": "O'Reilly Media",
-      "url": "https://www.credly.com/badges/6ea7ef53-2f7c-42cc-8eaa-e390ec30bb25/public_url"
+      "name": "Security+",
+      "date": "2021-08",
+      "issuer": "Comptia",
+      "url": "https://www.credly.com/badges/cd2ec8a8-639e-40d6-a99b-37c142f46263/public_url"
     }
   ],
   "skills": [
+    {
+      "name": "DevOps and DevSecOps",
+      "level": "Advanced",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD Pipelines",
+        "Terraform",
+        "Terragrunt",
+        "Helm",
+        "Kustomize",
+        "ArgoCD",
+        "Packer",
+        "Gitlab",
+        "Github",
+        "Forgejo",
+        "Logstash and Filebeat",
+        "Fluentd and Fluentbit",
+        "Self-hosted LLMs (Gemma, Bonsai)"
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "Advanced",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "GKE",
+        "Cloud SQL",
+        "IaaC",
+        "Cloudflare",
+        "Elastic Search Stack",
+        "Opensearch Stack"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "Bash",
+        "CLI Tooling",
+        "Node",
+        "Javascript",
+        "Java",
+        "C++",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "level": "Advanced",
+      "keywords": [
+        "Linux (Debian, Fedora, Arch etc.)",
+        "Windows",
+        "MacOS"
+      ]
+    },
+    {
+      "name": "Security Data Analytics",
+      "level": "Advanced",
+      "keywords": [
+        "Log analytics",
+        "detection engineering",
+        "query languages (KQL/SPL/Lucene)"
+      ]
+    },
+    {
+      "name": "Incident Response",
+      "level": "Advanced",
+      "keywords": [
+        "SIEM",
+        "WAF",
+        "Playbooks",
+        "Wazuh",
+        "Shuffle"
+      ]
+    },
+    {
+      "name": "VAPT",
+      "level": "Advanced",
+      "keywords": [
+        "Pentesting",
+        "Code Analysis",
+        "Automation",
+        "Network VAPT"
+      ]
+    },
     {
       "name": "AI/LLM Security",
       "level": "Advanced",
@@ -174,60 +263,6 @@
       ]
     },
     {
-      "name": "Cloud Computing",
-      "level": "Advanced",
-      "keywords": [
-        "AWS",
-        "GCP",
-        "Cloud SQL",
-        "GKE",
-        "IaaC",
-        "Elastic Search Stack",
-        "Opensearch Stack",
-        "Cloudflare"
-      ]
-    },
-    {
-      "name": "DevOps and DevSecOps",
-      "level": "Advanced",
-      "keywords": [
-        "Docker",
-        "Kubernetes",
-        "CI/CD Pipelines",
-        "Packer",
-        "Terraform",
-        "Terragrunt",
-        "Kustomize",
-        "Helm",
-        "Logstash and Filebeat",
-        "Fluentd and Fluentbit",
-        "Gitlab",
-        "Github",
-        "ArgoCD",
-        "Forgejo",
-        "Self-hosted LLMs (Gemma, Bonsai)"
-      ]
-    },
-    {
-      "name": "Security Data Analytics",
-      "level": "Advanced",
-      "keywords": [
-        "Log analytics", 
-        "detection engineering", 
-        "query languages (KQL/SPL/Lucene)"
-      ]
-    },
-    {
-      "name": "VAPT",
-      "level": "Advanced",
-      "keywords": [
-        "Pentesting",
-        "Code Analysis",
-        "Automation",
-        "Network VAPT"
-      ]
-    },
-    {
       "name": "Cybersecurity Concepts",
       "level": "Advanced",
       "keywords": [
@@ -238,41 +273,6 @@
         "Threat Detection",
         "Threat Modeling",
         "Threat Intelligence "
-      ]
-    },
-    {
-      "name": "Software Development",
-      "level": "Advanced",
-      "keywords": [
-        "Python",
-        "Java",
-        "C++",
-        "MySQL",
-        "PHP",
-        "Javascript",
-        "Node",
-        "Bash",
-        "CLI Tooling"
-      ]
-    },
-    {
-      "name": "Operating Systems",
-      "level": "Advanced",
-      "keywords": [
-        "Windows",
-        "Linux (Debian, Fedora, Arch etc.)",
-        "MacOS"
-      ]
-    },
-    {
-      "name": "Incident Response",
-      "level": "Advanced",
-      "keywords": [
-        "SIEM",
-        "WAF",
-        "Playbooks",
-        "Wazuh",
-        "Shuffle"
       ]
     }
   ],
@@ -295,6 +295,30 @@
     }
   ],
   "projects": [
+    {
+      "name": "Personal Homelab - K3s Cluster",
+      "startDate": "2024",
+      "description": " ",
+      "highlights": [
+        "Self-hosted production-grade K3s cluster managing media, music, and LLM services with GitOps-driven continuous deployment via ArgoCD.",
+        "Maintained full infrastructure-as-code discipline - all service configurations version-controlled and reconciled automatically via ArgoCD.",
+        "Secured all external access through Cloudflare Tunnels, eliminating public port exposure and enforcing zero-trust network access.",
+        "Deployed and operated self-hosted LLM instances (Gemma 4B, Bonsai-4B on Ollama) as a personal automation backbone, integrated with homelab services for workflow automation.",
+        "Tech Stack: K3s, ArgoCD, Cloudflare Tunnels, Helm/Kustomize"
+      ]
+    },
+    {
+      "name": "Automated Resume Pipeline",
+      "startDate": "2025",
+      "description": " ",
+      "highlights": [
+        "Designed a GitHub Actions CI pipeline that renders a JSON-sourced resume to PDF on every commit using a custom-modified ATS-optimized jsonresume theme.",
+        "Pipeline handles dependency caching, schema validation, HTML-to-PDF conversion, and automated versioned GitHub Release publication.",
+        "Forked and customized the jsonresume theme to meet specific ATS and visual requirements.",
+        "Tech Stack: GitHub Actions, Node.js, jsonresume, HTML/CSS"
+      ],
+      "url": "https://github.com/Psycho-not0078/Resume-As-Code"
+    },
     {
       "name": "Vaultify",
       "startDate": "2023-01",
@@ -324,29 +348,6 @@
         "Designed with a microservices architecture to enable scalable and maintainable deployments in the future"
       ],
       "url": "https://github.com/Psycho-not0078/Swift-Vote/"
-    },
-    {
-      "name": "Personal Homelab - K3s Cluster",
-      "startDate": "2024",
-      "description": " ",
-      "highlights": [
-        "Self-hosted production-grade K3s cluster managing media, music, and LLM services with GitOps-driven continuous deployment via ArgoCD.",
-        "Secured all external access through Cloudflare Tunnels, eliminating public port exposure and enforcing zero-trust network access.",
-        "Deployed and operated self-hosted LLM instances (Gemma 4B, Bonsai-4B on Ollama) as a personal automation backbone, integrated with homelab services for workflow automation.",
-        "Maintained full infrastructure-as-code discipline - all service configurations version-controlled and reconciled automatically via ArgoCD.",
-        "Tech Stack: K3s, ArgoCD, Cloudflare Tunnels, Helm/Kustomize"
-      ]
-    },
-    {
-      "name": "Automated Resume Pipeline",
-      "startDate": "2025",
-      "description": " ",
-      "highlights": [
-        "Designed a GitHub Actions CI pipeline that renders a JSON-sourced resume to PDF on every commit using a custom-modified ATS-optimized jsonresume theme.",
-        "Pipeline handles dependency caching, schema validation, HTML-to-PDF conversion, and automated versioned GitHub Release publication.",
-        "Forked and customized the jsonresume theme to meet specific ATS and visual requirements.",
-        "Tech Stack: GitHub Actions, Node.js, jsonresume, HTML/CSS"
-      ]
     }
   ],
   "interests": [
