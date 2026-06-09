@@ -1,14 +1,15 @@
 name: Build
-run-name: 🚀 Render resumed
+run-name: 🚀 Render resumed for ${{ github.ref_name }} branch
 on: 
     push:
         branches:
-          - 'main'
+          - '**'
         paths:
           - 'Resume/resume.json'
           - 'package.json'
-          - '.github/workflows/Build.yml'
+          # - '.github/workflows/Build.yml'
           - 'index.js'
+    workflow_dispatch:
 env:
   THEMEREPO: "ssh://git@github.com:Psycho-not0078/jsonresume-theme-dev-ats.git"
   THEME: "jsonresume-theme-dev-ats"
@@ -16,13 +17,12 @@ jobs:
     build:
         name: Code standards & build
         runs-on: ubuntu-latest
-        timeout-minutes: 3
+        timeout-minutes: 10
         permissions:
           contents: write
         strategy:
             matrix:
                 node-version: [20.x]
-
         steps:
         - name: "☁️ Checkout repository"
           uses: actions/checkout@v4
@@ -33,7 +33,6 @@ jobs:
             node-version: ${{ matrix.node-version }}
             cache: "npm"
             cache-dependency-path: ./package.json
-        
 
         - name: "📦 Install dependencies"
           run: npm install && npm ci
@@ -67,7 +66,7 @@ jobs:
           with:
             repo_token: ${{ secrets.GITHUB_TOKEN }}
             file: Sathya_Bhat_Resume_Latest.pdf
-            asset_name: ${{ env.FOO }}_Sathya_Bhat_Resume_Latest.pdf
-            tag: ${{env.THEME}}${{ env.FOO }}_latest
+            asset_name: ${{ github.ref_name }}_Sathya_Bhat_Resume_Latest.pdf
+            tag: ${{ github.ref_name }}_latest
             overwrite: true
-            body: ${{ github.event.head_commit.message }}, Theme of resume = ${{env.THEME}}
+            body: ${{ github.event.head_commit.message }}, Theme of resume = ${{env.THEME}}, Type - ${{ github.ref_name }}
