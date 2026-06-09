@@ -340,7 +340,8 @@
         "Pipeline handles dependency caching, schema validation, HTML-to-PDF conversion, and automated versioned GitHub Release publication.",
         "Forked and customized the jsonresume theme to meet specific ATS and visual requirements.",
         "Tech Stack: GitHub Actions, Node.js, jsonresume, HTML/CSS"
-      ]
+      ],
+      "url": "https://github.com/Psycho-not0078/Resume-As-Code"
     }
   ],
   "interests": [
