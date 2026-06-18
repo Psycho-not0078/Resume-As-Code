@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Sathya Narayana Bhat",
-    "label": "DevOps Engineer",
+    "label": "DevSecOps Engineer",
     "email": "snbhat0708@gmail.com",
     "url": "https://blog.homeserverfail.in",
     "phone": "+91 9319225818",
-    "summary": "DevOps Engineer with 4+ years building and securing cloud-native infrastructure across AWS and GCP. Hands-on with the full DevSecOps stack - Kubernetes, Terraform/Terragrunt, Helm, ArgoCD, CI/CD pipelines, and Python automation - with a track record of GitOps-driven deployments, infrastructure-as-code, and cloud cost optimization. Security-first mindset shaped by penetration testing, SIEM engineering, and AI/LLM security reviews, bringing shift-left security into delivery pipelines. Runs a GitOps-driven homelab K3s cluster with self-hosted LLMs (Ollama, Gemma, Bonsai) for infrastructure and automation experimentation.",
+    "summary": "DevSecOps Engineer with 4+ years building and securing cloud-native infrastructure across AWS and GCP. Hands-on with the full DevSecOps stack - Kubernetes, Terraform/Terragrunt, Helm, ArgoCD, CI/CD pipelines, and Python automation - with a track record of GitOps-driven deployments, infrastructure-as-code, and cloud cost optimization. Security-first mindset shaped by penetration testing, SIEM engineering, and AI/LLM security reviews, bringing shift-left security into delivery pipelines. Runs a GitOps-driven homelab K3s cluster with self-hosted LLMs (Ollama, Gemma, Bonsai) for infrastructure and automation experimentation.",
     "location": {
       "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
       "postalCode": "641030",
@@ -36,6 +36,7 @@
       "summary": "As a Senior Cybersecurity Engineer at Indsysholdings, I led infrastructure automation and platform operations across on-premise and cloud environments - owning Kubernetes, CI/CD, and cloud cost while embedding security into the delivery lifecycle.",
       "description": "",
       "highlights": [
+        "Instrumented Java and Python applications with OpenTelemetry and deployed the Grafana LGTM stack to deliver unified metrics, logs, and traces across services.",
         "Architected and operated a proof-of-concept multi-tenant ERPNext platform on a self-managed Kubernetes cluster, achieving logical compute and storage isolation per tenant using ArgoCD ApplicationSets and Helm - enabling scalable, GitOps-driven onboarding of new tenants without manual intervention.",
         "Architected and implemented CI/CD pipelines for both monolithic and microservice applications, streamlining deployment workflows and reducing release cycle time.",
         "Managed and optimized AWS cloud infrastructure for company services, achieving ~25-30% cost reduction through resource rightsizing, reserved instances, and usage audits.",
@@ -78,7 +79,6 @@
         "Performed Multiple Vulnerability assessments for company assets, reducing the occurrence of high/critical severity by 75-80%",
         "Conducted AI/LLM security assessments covering prompt injection, prompt leakage, training data poisoning, and model evasion - identifying risks in LLM-integrated applications and collaborating with development teams on mitigations",
         "Responded to security incidents, conducted root cause analysis, and implemented corrective measures to prevent future occurrences.",
-        "Contributed to a secure and resilient organization by proactively identifying and addressing potential security risks.",
         "Conducted Regular Information Security training sessions for company employees",
         "Trained and empowered L1 SOC analysts to confidently handle critical cybersecurity incidents with speed and precision."
       ],
@@ -130,12 +130,6 @@
       "studyType": "12th (CBSE)",
       "startDate": "2017-04",
       "endDate": "2018-04"
-    },
-    {
-      "institution": "Abu Dhabi Indian School",
-      "studyType": "Primary Education",
-      "startDate": "2005",
-      "endDate": "2013"
     }
   ],
   "certificates": [
@@ -175,8 +169,6 @@
         "Gitlab",
         "Github",
         "Forgejo",
-        "Logstash and Filebeat",
-        "Fluentd and Fluentbit",
         "Self-hosted LLMs (Gemma, Bonsai)"
       ]
     },
@@ -188,10 +180,8 @@
         "GCP",
         "GKE",
         "Cloud SQL",
-        "IaaC",
-        "Cloudflare",
-        "Elastic Search Stack",
-        "Opensearch Stack"
+        "IaC",
+        "Cloudflare"
       ]
     },
     {
@@ -223,9 +213,23 @@
         "PHP",
         "MySQL",
         "Agile Development Lifecycle",
-        "Sprint Planning",
         "Jira",
         "Youtrack"
+      ]
+    },
+    {
+      "name": "Observability",
+      "level": "Advanced",
+      "keywords": [
+        "OpenTelemetry",
+        "Grafana",
+        "Loki",
+        "Mimir",
+        "Tempo",
+        "ElasticSearch",
+        "Opensearch",
+        "Logstash and Filebeat",
+        "Fluentd and Fluentbit"
       ]
     },
     {
@@ -291,7 +295,7 @@
         "Active Directory",
         "Threat Detection",
         "Threat Modeling",
-        "Threat Intelligence "
+        "Threat Intelligence"
       ]
     }
   ],
