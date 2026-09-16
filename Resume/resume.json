@@ -99,21 +99,6 @@
       ],
       "name": "IDfy",
       "url": "https://idfy.com"
-    },
-    {
-      "company": "NIIT University",
-      "position": "PHP Developer - Internship",
-      "website": "https://niituniversity.in/",
-      "startDate": "2021-06-01",
-      "endDate": "2021-08-01",
-      "summary": "Successfully created a Moodle Plugin that extracts various exam analytics.",
-      "highlights": [
-        "Demonstrated expertise in creating a tailored Moodle [exam portal] plugin to address specific analytics requirements.",
-        "Successfully extracted relevant data from Moodle's database and performed in-depth analysis to derive meaningful insights.",
-        "Identified trends and patterns in student behavior and performance to support targeted interventions and improve overall learning outcomes."
-      ],
-      "url": "https://niituniversity.in/",
-      "name": "NIIT University"
     }
   ],
   "education": [
@@ -124,12 +109,6 @@
       "startDate": "2018-08",
       "endDate": "2022-06",
       "gpa": "7.8"
-    },
-    {
-      "institution": "Kikani Vidhya Mandir [Coimbatore]",
-      "studyType": "12th (CBSE)",
-      "startDate": "2017-04",
-      "endDate": "2018-04"
     }
   ],
   "certificates": [
@@ -357,21 +336,6 @@
         "Delivered a clean and modular codebase, enabling future extensibility (e.g., GUI wrappers, plugin architecture)."
       ],
       "url": "https://github.com/gyaneshpande/vaultify/"
-    },
-    {
-      "name": "Swift Vote",
-      "startDate": "2021",
-      "endDate": "2022",
-      "description": " ",
-      "highlights": [
-        "Blockchain-based voting system specifically designed to address the legal requirements of a democratic process.",
-        "Tech Stack: Python, Solidity [ETH blockchain], SQLite",
-        "Created a voting environment where Vote tallies can be calculated directly from the blockchain, ensuring that results are tamper resistant",
-        "Created it with a zero trust policy approach.",
-        "Clear separation of concerns allows unit testing of core blockchain mechanics, mock voting flows, and integration testing of the full system.",
-        "Designed with a microservices architecture to enable scalable and maintainable deployments in the future"
-      ],
-      "url": "https://github.com/Psycho-not0078/Swift-Vote/"
     }
   ],
   "interests": [
@@ -386,22 +350,6 @@
       "name": "Gaming",
       "keywords": [
         "PC games"
-      ]
-    },
-    {
-      "name": "Art",
-      "keywords": [
-        "Drawing",
-        "Graphic Designing",
-        "3d Modeling"
-      ]
-    },
-    {
-      "name": "Martial Arts",
-      "keywords": [
-        "Karate",
-        "Kobudo",
-        "Kalaripayattu"
       ]
     }
   ]
