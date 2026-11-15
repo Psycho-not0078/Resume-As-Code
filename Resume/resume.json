@@ -1,14 +1,12 @@
 {
   "basics": {
     "name": "Sathya Narayana Bhat",
-    "label": "Cybersecurity Engineer",
+    "label": "Security Operations & Detection Engineer",
     "email": "snbhat0708@gmail.com",
     "url": "https://blog.homeserverfail.in",
-    "phone": "+91 9319225818",
-    "summary": "Cybersecurity Engineer with 4+ years spanning penetration testing and VAPT, cloud security (AWS/GCP), SIEM engineering and detection, incident response, and DevSecOps. Experienced across the full security lifecycle - from reconnaissance and manual exploitation to detection tuning, vulnerability management, and SOC 2 Type 2 audit support - reducing high/critical findings by 75-80% and cutting alert false positives by ~30%. Also leads adversarial AI/LLM security testing (prompt injection, prompt leakage, training data poisoning, model evasion) aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS. Comfortable across the DevSecOps stack - Kubernetes, Terraform, CI/CD, and Python automation - and runs a GitOps-driven homelab K3s cluster for hands-on infrastructure and security experimentation.",
+    "phone": "+91 93192 25818",
+    "summary": "Cybersecurity Engineer with 4+ years in SIEM engineering, detection tuning, and incident response across multi-cloud environments (AWS/GCP). Built and operated SIEM platforms (Wazuh, Google Security Operations), authored incident response playbooks for WAF and SIEM events, piloted SOAR workflows (Shuffle, Windmill) for response automation, and trained L1 SOC analysts to handle critical incidents. Cut alert false positives by ~30% and reduced high/critical vulnerability findings by 75-80%. Offensive background in VAPT and adversarial AI/LLM testing (OWASP Top 10 for LLM Applications, MITRE ATLAS) informs detection design, and DevSecOps experience (Kubernetes, Terraform, Python) supports building automation that reduces analyst toil.",
     "location": {
-      "address": "48, Lakshmi Nivas, Siva Nagar, Kavundampalayam",
-      "postalCode": "641030",
       "city": "Coimbatore",
       "countryCode": "IN",
       "region": "Tamil Nadu"
@@ -28,19 +26,21 @@
   },
   "work": [
     {
-      "name": "Indsysholdings",
+      "name": "Indsys holdings",
       "position": "Senior Cybersecurity Engineer - DevSecOps & Cloud Security",
       "startDate": "2025-10-01",
+      "endDate": "2026-06-01",
       "location": "",
       "url": "https://indsysholdings.com/",
-      "summary": "As a Senior Cybersecurity Engineer at Indsysholdings, I led end-to-end security operations spanning network penetration testing, cloud infrastructure management, and DevSecOps - strengthening the organization's security posture across both on-premise and cloud environments.",
+      "summary": "As a Senior Cybersecurity Engineer at Indsys holdings, I led security operations spanning network penetration testing, perimeter hardening, telemetry, and cloud infrastructure - strengthening the organization's security posture across on-premise and cloud environments.",
       "description": "",
       "highlights": [
         "Performed end-to-end Network VAPT for clients encompassing reconnaissance, vulnerability scanning, manual exploitation, and risk-rated remediation reporting.",
-        "Designed and implemented firewall rules and policies for local network infrastructure, enhancing perimeter security and access control.",
+        "Designed and implemented network firewall rules and segmentation policies for on-premises infrastructure, hardening the network perimeter and controlling internal access paths.",
+        "Instrumented Java and Python applications with OpenTelemetry and deployed the Grafana LGTM stack, delivering unified metrics, logs, and traces for improved visibility across services.",
         "Managed and optimized AWS cloud infrastructure for company services, achieving ~25-30% cost reduction through resource rightsizing, reserved instances, and usage audits.",
-        "Architected and implemented CI/CD pipelines for both monolithic and microservice applications, streamlining deployment workflows and reducing release cycle time.",
-        "Architected a proof-of-concept multi-tenant ERPNext deployment on a self-managed Kubernetes cluster, achieving logical compute and storage isolation per tenant using ArgoCD ApplicationSets and Helm - enabling scalable, GitOps-driven onboarding of new tenants without manual intervention."
+        "Architected and implemented CI/CD pipelines for monolithic and microservice applications, streamlining deployment workflows and reducing release cycle time.",
+        "Architected and operated a proof-of-concept multi-tenant ERPNext platform on a self-managed Kubernetes cluster, achieving per-tenant compute and storage isolation using ArgoCD ApplicationSets and Helm for GitOps-driven tenant onboarding."
       ]
     },
     {
@@ -50,15 +50,15 @@
       "endDate": "2025-10-01",
       "location": "",
       "url": "https://idfy.com",
-      "summary": "As a Senior Information Security Engineer at IDfy, I drove security automation across CI/CD and multi-cloud infrastructure - scaling SIEM coverage, tuning edge defenses, and standardizing the team's AI/LLM security review process.",
+      "summary": "As a Senior Information Security Engineer at IDfy, I scaled SIEM coverage, tuned edge detections, and drove security automation across CI/CD and multi-cloud infrastructure, while standardizing the team's AI/LLM security review process.",
       "highlights": [
-        "Supported SOC 2 Type 2 audit by providing evidence for SIEM, vulnerability management, and incident response controls.",
         "Enhanced multi-cloud SIEM with automated asset onboarding, reducing manual provisioning effort and improving detection coverage.",
-        "Reduced false positives in Google Cloud Armor alerts by ~30% through detection tuning and signature refinement.",
-        "Implemented a CI compliance scanner running across all company repositories, surfacing policy drift early in the SDLC.",
-        "Implemented geo-fencing across company services/applications to reduce attack surface from out-of-scope regions.",
-        "Designed and operationalized an internal AI security intervention framework defining assessment triggers, threat models, and adversarial testing protocols for LLM-integrated features across internal and client-facing applications - standardizing the team's approach to AI/LLM security reviews aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS.",
-        "Conducted hands-on adversarial testing against LLM-integrated applications, validating risks across prompt injection, prompt leakage, training data poisoning, and model evasion; collaborated with AI/ML and Gen AI developers on mitigations."
+        "Investigated alerts and conducted proactive threat hunts in Google Security Operations (Chronicle) using UDM search across GCP and Cloud Armor telemetry, feeding findings into detection tuning and incident response.",
+        "Reduced false positives in Google Cloud Armor (WAF) alerts by ~30% through detection tuning and signature refinement.",
+        "Supported SOC 2 Type 2 audit by providing evidence for SIEM, vulnerability management, and incident response controls.",
+        "Implemented network-layer geo-fencing across company services and applications, reducing inbound attack surface from out-of-scope regions.",
+        "Implemented a CI compliance scanner running across all company repositories, surfacing policy drift early in the SDLC and shifting security left in the delivery pipeline.",
+        "Designed an internal AI security framework defining assessment triggers, threat models, and adversarial testing protocols for LLM-integrated features, and led hands-on testing for prompt injection, prompt leakage, training data poisoning, and model evasion aligned with OWASP Top 10 for LLM Applications and MITRE ATLAS."
       ]
     },
     {
@@ -67,18 +67,17 @@
       "url": "https://idfy.com",
       "startDate": "2022-07-01",
       "endDate": "2025-03-01",
-      "summary": "As an Information Security Engineer at IDfy, I built and operated the organization's core security platforms - centralized SIEM, incident response, and vulnerability management - while partnering with engineering teams to embed secure-by-default practices into the SDLC.",
+      "summary": "As an Information Security Engineer at IDfy, I built and operated the organization's core security operations platforms - centralized SIEM, incident response, and vulnerability management - while mentoring SOC analysts and partnering with engineering teams on secure-by-default practices.",
       "highlights": [
-        "Performed multiple vulnerability assessments for company assets, reducing the occurrence of high/critical severity findings by 75-80%",
-        "Established a unified security posture through a centralized multi-cloud SIEM [Wazuh] platform, reducing misconfigurations and increasing detection capabilities",
-        "Implemented Incident Response Playbook with focus on Web Application Firewall [WAF] and SIEM events",
-        "Responded to security incidents, conducted root cause analysis, and implemented corrective measures to prevent future occurrences.",
-        "Experimented with SOAR Deployment [Shuffle, Windmill.dev] for incident response automation",
+        "Built and operated a centralized multi-cloud Wazuh SIEM across AWS and GCP, tuning detection rules mapped to MITRE ATT&CK and providing endpoint monitoring through file integrity monitoring, configuration assessment, and active response.",
+        "Investigated and responded to escalated security incidents, leading root cause analysis and implementing corrective measures, including detection and process improvements, to prevent recurrence.",
+        "Trained and mentored L1 SOC analysts on triage and escalation, enabling them to handle critical cybersecurity incidents with speed and precision.",
+        "Authored incident response playbooks for Web Application Firewall (WAF) and SIEM events.",
+        "Piloted SOAR workflows (Shuffle, Windmill.dev) to automate incident response tasks.",
+        "Performed vulnerability assessments across company assets, reducing high/critical severity findings by 75-80%.",
+        "Developed and maintained custom security scripts and tooling to automate routine operational tasks.",
         "Collaborated with development teams to ensure secure coding practices and adherence to security standards.",
-        "Developed and maintained custom security scripts and tools to automate routine tasks and improve efficiency.",
-        "Conducted AI/LLM security assessments covering prompt injection, prompt leakage, training data poisoning, and model evasion - identifying risks in LLM-integrated applications and collaborating with development teams on mitigations",
-        "Conducted regular information security training sessions for company employees",
-        "Trained and empowered L1 SOC analysts to confidently handle critical cybersecurity incidents with speed and precision."
+        "Conducted regular information security training sessions for company employees."
       ]
     },
     {
@@ -87,24 +86,11 @@
       "url": "https://idfy.com",
       "startDate": "2022-01-01",
       "endDate": "2022-06-30",
-      "summary": "Gained practical cybersecurity experience as an intern at IDfy, where I contributed to enhancing application security. I performed comprehensive vulnerability assessments (VAPT) on critical applications, identifying and mitigating potential risks.",
+      "summary": "Performed comprehensive vulnerability assessments (VAPT) on critical applications, identifying and mitigating potential risks.",
       "highlights": [
-        "Collaborated with development teams to address identified vulnerabilities.",
+        "Collaborated with development teams to remediate identified vulnerabilities.",
         "Provided detailed vulnerability reports with remediation recommendations.",
         "Enhanced communication and collaboration between security and development teams."
-      ]
-    },
-    {
-      "name": "NIIT University",
-      "position": "PHP Developer - Internship",
-      "url": "https://niituniversity.in/",
-      "startDate": "2021-06-01",
-      "endDate": "2021-08-01",
-      "summary": "Successfully created a Moodle Plugin that extracts various exam analytics.",
-      "highlights": [
-        "Demonstrated expertise in creating a tailored Moodle [exam portal] plugin to address specific analytics requirements.",
-        "Successfully extracted relevant data from Moodle's database and performed in-depth analysis to derive meaningful insights.",
-        "Identified trends and patterns in student behavior and performance to support targeted interventions and improve overall learning outcomes."
       ]
     }
   ],
@@ -116,20 +102,14 @@
       "startDate": "2018-08-01",
       "endDate": "2022-06-01",
       "gpa": "7.8"
-    },
-    {
-      "institution": "Kikani Vidhya Mandir [Coimbatore]",
-      "studyType": "12th (CBSE)",
-      "startDate": "2017-04-01",
-      "endDate": "2018-04-01"
     }
   ],
   "certificates": [
     {
-      "name": "Security+",
-      "date": "2021-08-01",
-      "issuer": "Comptia",
-      "url": "https://www.credly.com/badges/cd2ec8a8-639e-40d6-a99b-37c142f46263/public_url"
+      "name": "Practical Cloud Security",
+      "date": "2025-04-09",
+      "issuer": "O'Reilly Media",
+      "url": "https://www.credly.com/badges/6ea7ef53-2f7c-42cc-8eaa-e390ec30bb25/public_url"
     },
     {
       "name": "Google Cloud Cybersecurity Certificate",
@@ -138,13 +118,91 @@
       "url": "https://www.credly.com/badges/4a2c6c05-b6f5-4690-9462-02f1523c6932/public_url"
     },
     {
-      "name": "Practical Cloud Security",
-      "date": "2025-04-09",
-      "issuer": "O'Reilly Media",
-      "url": "https://www.credly.com/badges/6ea7ef53-2f7c-42cc-8eaa-e390ec30bb25/public_url"
+      "name": "Security+",
+      "date": "2021-08-01",
+      "issuer": "Comptia",
+      "url": "https://www.credly.com/badges/cd2ec8a8-639e-40d6-a99b-37c142f46263/public_url"
     }
   ],
   "skills": [
+    {
+      "name": "Incident Response",
+      "level": "Advanced",
+      "keywords": [
+        "SIEM",
+        "Google Security Operations (Chronicle)",
+        "Wazuh",
+        "SOAR (Shuffle, Windmill)",
+        "Endpoint monitoring & active response (Wazuh)",
+        "Playbooks",
+        "Root Cause Analysis",
+        "WAF (Google Cloud Armor)"
+      ]
+    },
+    {
+      "name": "Security Data Analytics",
+      "level": "Advanced",
+      "keywords": [
+        "Threat hunting",
+        "Detection engineering",
+        "Log analytics",
+        "UDM search",
+        "Query languages (KQL/SPL/Lucene)",
+        "Elastic Stack",
+        "OpenSearch",
+        "Logstash and Filebeat",
+        "Fluentd and Fluentbit"
+      ]
+    },
+    {
+      "name": "Cybersecurity Concepts",
+      "level": "Advanced",
+      "keywords": [
+        "MITRE ATT&CK",
+        "Threat Detection",
+        "Threat Analysis",
+        "Threat Intelligence",
+        "Threat Modeling",
+        "Alert Automation",
+        "Active Directory",
+        "SAST"
+      ]
+    },
+    {
+      "name": "Observability",
+      "level": "Advanced",
+      "keywords": [
+        "OpenTelemetry",
+        "Grafana",
+        "Loki",
+        "Mimir",
+        "Tempo"
+      ]
+    },
+    {
+      "name": "Network Security",
+      "level": "Advanced",
+      "keywords": [
+        "Firewall design & network segmentation",
+        "WAF (Google Cloud Armor)",
+        "Geo-fencing / edge access control",
+        "Cloudflare Tunnels (zero-trust network access)",
+        "DNS, reverse proxy & ingress",
+        "Network monitoring & log analytics"
+      ]
+    },
+    {
+      "name": "Cloud Security",
+      "level": "Advanced",
+      "keywords": [
+        "AWS",
+        "GCP",
+        "GKE",
+        "Cloud SQL",
+        "IaC",
+        "Cloudflare"
+      ]
+    },
     {
       "name": "VAPT",
       "level": "Advanced",
@@ -154,53 +212,6 @@
         "Web Application Security",
         "Code Analysis",
         "Automation"
-      ]
-    },
-    {
-      "name": "Cybersecurity Concepts",
-      "level": "Advanced",
-      "keywords": [
-        "SAST",
-        "Alert Automation",
-        "Threat Analysis",
-        "Active Directory",
-        "Threat Detection",
-        "Threat Modeling",
-        "Threat Intelligence"
-      ]
-    },
-    {
-      "name": "Incident Response",
-      "level": "Advanced",
-      "keywords": [
-        "SIEM",
-        "WAF",
-        "Playbooks",
-        "Wazuh",
-        "Shuffle"
-      ]
-    },
-    {
-      "name": "Cloud Security",
-      "level": "Advanced",
-      "keywords": [
-        "AWS",
-        "GCP",
-        "Cloud SQL",
-        "GKE",
-        "IaC",
-        "Elastic Search Stack",
-        "Opensearch Stack",
-        "Cloudflare"
-      ]
-    },
-    {
-      "name": "Security Data Analytics",
-      "level": "Advanced",
-      "keywords": [
-        "Log analytics",
-        "detection engineering",
-        "query languages (KQL/SPL/Lucene)"
       ]
     },
     {
@@ -224,17 +235,16 @@
         "Docker",
         "Kubernetes",
         "CI/CD Pipelines",
-        "Packer",
         "Terraform",
         "Terragrunt",
-        "Kustomize",
         "Helm",
-        "Logstash and Filebeat",
-        "Fluentd and Fluentbit",
+        "Kustomize",
+        "ArgoCD",
+        "Packer",
         "Gitlab",
         "Github",
-        "ArgoCD",
         "Forgejo",
+        "Kubernetes PV/PVC & per-tenant storage isolation",
         "Self-hosted LLMs (Gemma, Bonsai)"
       ]
     },
@@ -243,22 +253,22 @@
       "level": "Advanced",
       "keywords": [
         "Python",
+        "Bash",
+        "CLI Tooling",
         "Java",
-        "C++",
-        "MySQL",
-        "PHP",
         "Javascript",
         "Node",
-        "Bash",
-        "CLI Tooling"
+        "MySQL",
+        "Agile Development Lifecycle",
+        "Jira"
       ]
     },
     {
       "name": "Operating Systems",
       "level": "Advanced",
       "keywords": [
-        "Windows",
         "Linux (Debian, Fedora, Arch etc.)",
+        "Windows",
         "MacOS"
       ]
     }
@@ -283,55 +293,37 @@
   ],
   "projects": [
     {
+      "name": "Personal Homelab - K3s Cluster",
+      "startDate": "2024",
+      "description": " ",
+      "highlights": [
+        "Self-hosted production-grade K3s cluster running media, automation, and LLM services with GitOps-driven continuous deployment via ArgoCD.",
+        "Designed cluster networking and ingress with Cloudflare Tunnels for zero-trust external access, eliminating public port exposure while routing traffic securely to internal services.",
+        "Managed persistent storage and volume provisioning for stateful workloads, with all service configurations version-controlled and reconciled automatically via ArgoCD.",
+        "Deployed and operated self-hosted LLMs (Gemma 4B, Bonsai-4B on Ollama) as a personal automation backbone integrated with homelab services.",
+        "Tech Stack: K3s, ArgoCD, Cloudflare Tunnels, Helm/Kustomize, Ollama"
+      ]
+    },
+    {
       "name": "Vaultify",
       "startDate": "2023-01",
       "endDate": "2023-01",
       "description": " ",
       "highlights": [
-        "Designed and developed a CLI-based secret manager to securely inject secrets into environment variables during local development without external dependencies like Docker or cloud KMS.",
-        "Participated in IDfy Hackathon",
-        "Tech Stack: Python, Redis, flask",
-        "Emphasized security-by-design principles: secrets are stored only in encrypted form; the master key is not stored on disk",
-        "Wrote comprehensive documentation and setup scripts to ensure developer onboarding within minutes",
-        "Delivered a clean and modular codebase, enabling future extensibility (e.g., GUI wrappers, plugin architecture)."
+        "Built a CLI-based secret manager for an IDfy hackathon that securely injects secrets into environment variables during local development without Docker or cloud KMS.",
+        "Security-by-design: secrets stored only in encrypted form and the master key never written to disk.",
+        "Wrote documentation and setup scripts enabling developer onboarding within minutes.",
+        "Tech Stack: Python, Redis, Flask"
       ],
       "url": "https://github.com/gyaneshpande/vaultify/"
-    },
-    {
-      "name": "Swift Vote",
-      "startDate": "2021",
-      "endDate": "2022",
-      "description": " ",
-      "highlights": [
-        "Blockchain-based voting system specifically designed to address the legal requirements of a democratic process.",
-        "Tech Stack: Python, Solidity [ETH blockchain], SQLite",
-        "Created a voting environment where Vote tallies can be calculated directly from the blockchain, ensuring that results are tamper resistant",
-        "Created it with a zero trust policy approach.",
-        "Clear separation of concerns allows unit testing of core blockchain mechanics, mock voting flows, and integration testing of the full system.",
-        "Designed with a microservices architecture to enable scalable and maintainable deployments in the future"
-      ],
-      "url": "https://github.com/Psycho-not0078/Swift-Vote/"
-    },
-    {
-      "name": "Personal Homelab - K3s Cluster",
-      "startDate": "2024",
-      "description": " ",
-      "highlights": [
-        "Self-hosted production-grade K3s cluster managing media, music, and LLM services with GitOps-driven continuous deployment via ArgoCD.",
-        "Secured all external access through Cloudflare Tunnels, eliminating public port exposure and enforcing zero-trust network access.",
-        "Deployed and operated self-hosted LLM instances (Gemma 4B, Bonsai-4B on Ollama) as a personal automation backbone, integrated with homelab services for workflow automation.",
-        "Maintained full infrastructure-as-code discipline - all service configurations version-controlled and reconciled automatically via ArgoCD.",
-        "Tech Stack: K3s, ArgoCD, Cloudflare Tunnels, Helm/Kustomize"
-      ]
     },
     {
       "name": "Automated Resume Pipeline",
       "startDate": "2025",
       "description": " ",
       "highlights": [
-        "Designed a GitHub Actions CI pipeline that renders a JSON-sourced resume to PDF on every commit using a custom-modified ATS-optimized jsonresume theme.",
-        "Pipeline handles dependency caching, schema validation, HTML-to-PDF conversion, and automated versioned GitHub Release publication.",
-        "Forked and customized the jsonresume theme to meet specific ATS and visual requirements.",
+        "Designed a GitHub Actions pipeline that renders a JSON-sourced resume to PDF on every commit, with dependency caching, schema validation, HTML-to-PDF conversion, and versioned GitHub Release publication.",
+        "Forked and customized a jsonresume theme to meet ATS and visual requirements.",
         "Tech Stack: GitHub Actions, Node.js, jsonresume, HTML/CSS"
       ],
       "url": "https://github.com/Psycho-not0078/Resume-As-Code"
@@ -343,20 +335,6 @@
       "keywords": [
         "Experimentation",
         "Self Hosting Tools"
-      ]
-    },
-    {
-      "name": "Gaming",
-      "keywords": [
-        "PC games"
-      ]
-    },
-    {
-      "name": "Art",
-      "keywords": [
-        "Drawing",
-        "Graphic Designing",
-        "3d Modeling"
       ]
     },
     {
